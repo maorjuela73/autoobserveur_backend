@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_active: false
+  is_update: false
+  duration: 1
+  start_date: 2019-04-01
+  end_date: 2019-04-01
+
+two:
+  is_active: false
+  is_update: false
+  duration: 1
+  start_date: 2019-04-01
+  end_date: 2019-04-01

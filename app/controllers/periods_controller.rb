@@ -1,6 +1,6 @@
 class PeriodsController < ApplicationController
   before_action :set_period, only: [:show, :update, :destroy]
-
+  before_action :authenticate_user
   # GET /periods
   def index
     @periods = Period.all

@@ -142,8 +142,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2019-04-01.01:54:49.035</IntrospectionTimestamp>
-      <IntrospectionStateNumber>353078</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2019-04-01.02:05:58.779</IntrospectionTimestamp>
+      <IntrospectionStateNumber>353080</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -189,7 +189,16 @@
       <HandlerId>335</HandlerId>
       <Type>index</Type>
     </access-method>
-    <sequence id="38" parent="31" name="periods_id_seq">
+    <sequence id="38" parent="31" name="users_id_seq">
+      <ObjectId>75402</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>353080</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="39" parent="31" name="periods_id_seq">
       <ObjectId>75394</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>353078</StateNumber>
@@ -198,60 +207,65 @@
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
-    <table id="39" parent="31" name="ar_internal_metadata">
+    <table id="40" parent="31" name="ar_internal_metadata">
       <ObjectId>75386</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>353077</StateNumber>
     </table>
-    <table id="40" parent="31" name="periods">
+    <table id="41" parent="31" name="periods">
       <ObjectId>75396</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>353078</StateNumber>
     </table>
-    <table id="41" parent="31" name="schema_migrations">
+    <table id="42" parent="31" name="schema_migrations">
       <ObjectId>75378</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>353076</StateNumber>
     </table>
-    <column id="42" parent="39" name="key">
+    <table id="43" parent="31" name="users">
+      <ObjectId>75404</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>353080</StateNumber>
+    </table>
+    <column id="44" parent="40" name="key">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>353077</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="43" parent="39" name="value">
+    <column id="45" parent="40" name="value">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <StateNumber>353077</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="44" parent="39" name="created_at">
+    <column id="46" parent="40" name="created_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>353077</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="45" parent="39" name="updated_at">
+    <column id="47" parent="40" name="updated_at">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>353077</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="46" parent="39" name="ar_internal_metadata_pkey">
+    <index id="48" parent="40" name="ar_internal_metadata_pkey">
       <ObjectId>75392</ObjectId>
       <ColNames>key</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="47" parent="39" name="ar_internal_metadata_pkey">
+    <key id="49" parent="40" name="ar_internal_metadata_pkey">
       <ObjectId>75393</ObjectId>
       <ColNames>key</ColNames>
       <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="48" parent="40" name="id">
+    <column id="50" parent="41" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -260,77 +274,141 @@
       <TypeId>20</TypeId>
       <SequenceName>periods_id_seq</SequenceName>
     </column>
-    <column id="49" parent="40" name="is_active">
+    <column id="51" parent="41" name="is_active">
       <Position>2</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>353078</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="50" parent="40" name="is_update">
+    <column id="52" parent="41" name="is_update">
       <Position>3</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>353078</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="51" parent="40" name="duration">
+    <column id="53" parent="41" name="duration">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>353078</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="52" parent="40" name="start_date">
+    <column id="54" parent="41" name="start_date">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <StateNumber>353078</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="53" parent="40" name="end_date">
+    <column id="55" parent="41" name="end_date">
       <Position>6</Position>
       <DataType>date|0s</DataType>
       <StateNumber>353078</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="54" parent="40" name="created_at">
+    <column id="56" parent="41" name="created_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>353078</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="55" parent="40" name="updated_at">
+    <column id="57" parent="41" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>353078</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="56" parent="40" name="periods_pkey">
+    <index id="58" parent="41" name="periods_pkey">
       <ObjectId>75400</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="57" parent="40" name="periods_pkey">
+    <key id="59" parent="41" name="periods_pkey">
       <ObjectId>75401</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>periods_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="58" parent="41" name="version">
+    <column id="60" parent="42" name="version">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>353076</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="59" parent="41" name="schema_migrations_pkey">
+    <index id="61" parent="42" name="schema_migrations_pkey">
       <ObjectId>75384</ObjectId>
       <ColNames>version</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="60" parent="41" name="schema_migrations_pkey">
+    <key id="62" parent="42" name="schema_migrations_pkey">
       <ObjectId>75385</ObjectId>
       <ColNames>version</ColNames>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>353080</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>users_id_seq</SequenceName>
+    </column>
+    <column id="64" parent="43" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="43" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="66" parent="43" name="email">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="67" parent="43" name="birth_date">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="68" parent="43" name="password_digest">
+      <Position>6</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="69" parent="43" name="created_at">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="70" parent="43" name="updated_at">
+      <Position>8</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>353080</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="71" parent="43" name="users_pkey">
+      <ObjectId>75411</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="43" name="users_pkey">
+      <ObjectId>75412</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
   </database-model>

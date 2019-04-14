@@ -3,8 +3,12 @@ class PeriodsController < ApplicationController
   before_action :authenticate_user
   # GET /periods
   def index
-    @periods = Period.all
-
+    if current_user
+      puts current_user.email
+    else
+      puts "No "
+    end
+    @periods = current_user.periods.all
     render json: @periods
   end
 

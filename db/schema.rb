@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_04_01_065344) do
 
   create_table "periods", force: :cascade do |t|
     t.boolean "is_active"
-    t.boolean "is_update"
+    t.boolean "is_updated"
     t.integer "duration"
     t.date "start_date"
     t.date "end_date"

@@ -1,5 +1,7 @@
 class User < ApplicationRecord
 
+  has_many :periods, dependent: :destroy
+
   has_secure_password
   validates :email, presence: true
 

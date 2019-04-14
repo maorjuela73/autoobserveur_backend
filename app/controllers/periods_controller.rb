@@ -3,11 +3,6 @@ class PeriodsController < ApplicationController
   before_action :authenticate_user
   # GET /periods
   def index
-    if current_user
-      puts current_user.email
-    else
-      puts "No "
-    end
     @periods = current_user.periods.all
     render json: @periods
   end
@@ -20,7 +15,7 @@ class PeriodsController < ApplicationController
   # POST /periods
   def create
     @period = Period.new(period_params)
-
+    @period.user_id = current_user.id
     if @period.save
       render json: @period, status: :created, location: @period
     else

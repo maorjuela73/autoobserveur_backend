@@ -7,5 +7,15 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/autoobserverur_backend_development</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" uuid="85e467b8-2e5d-47ea-b52a-ed099d4df84c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-23-21-106-241.compute-1.amazonaws.com:5432/d8qnlfu56odsnv</jdbc-url>
+      <driver-properties>
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

@@ -1,5 +1,5 @@
 class PeriodsController < ApplicationController
-  before_action :set_period, only: [:show, :update, :destroy]
+  before_action :set_period, only: [:show, :update, :destroy, :switch_updated]
   before_action :authenticate_user
   # GET /periods
   def index
@@ -73,6 +73,10 @@ class PeriodsController < ApplicationController
   def get_active_period
     @period = current_user.periods.where(is_active: true)
     render json: @period
+  end
+
+  def switch_updated
+    @period.is_updated = !@period.is_updated
   end
 
   private

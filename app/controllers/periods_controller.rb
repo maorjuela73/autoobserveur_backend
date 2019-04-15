@@ -76,7 +76,9 @@ class PeriodsController < ApplicationController
   end
 
   def switch_updated
+    puts "Cambiando el estado del periodo #{@period.id}"
     @period.is_updated = !@period.is_updated
+    @period.save
   end
 
   private

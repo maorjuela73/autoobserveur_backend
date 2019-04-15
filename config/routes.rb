@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   post 'user_token' => 'user_token#create'
   resources :users
   resources :periods
+  resources :items
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get '/create_period/:nduration', to: 'periods#create_period', as: 'create_period'
   get '/get_periods', to: 'periods#get_periods', as: 'get_periods'

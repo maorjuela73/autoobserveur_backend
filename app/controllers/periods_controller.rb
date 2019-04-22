@@ -1,5 +1,6 @@
 class PeriodsController < ApplicationController
   before_action :set_period, only: [:show, :update, :destroy, :switch_updated]
+  before_action :get_active_period
   before_action :authenticate_user
   # GET /periods
   def index
@@ -10,7 +11,6 @@ class PeriodsController < ApplicationController
     #                message: "loaded periods of user #{cursuser}" ,
     #                data: @periods }
   end
-
 
   # GET /periods/1
   def show
@@ -42,8 +42,11 @@ class PeriodsController < ApplicationController
     @period.destroy
   end
 
+  # CREATE a new period with the lenght passed as parameter
+  # input: :nduration The period duration
+  # output: render json with new period data
   def create_period
-    periods_checked = current_user.periods.where(is_active: true).count
+    periods_checked = current_user.periods.active.count
     puts "The user has #{periods_checked} active periods, trying to create a #{params[:nduration].to_i} days period"
     if !is_a_period_active
       puts "The user hasn't active periods"
@@ -61,33 +64,53 @@ class PeriodsController < ApplicationController
     end
   end
 
+  # This method returns all the user periods ordered by date
   def get_periods
     @periods = current_user.periods.all.order(created_at: :desc)
     render json: @periods
   end
 
+  # Return if a period is active
   def check_for_active_periods
     render json: is_a_period_active
   end
 
-  def get_active_period
-    @period = current_user.periods.where(is_active: true)
-    render json: @period
+  def check_active_period
+    render json: @active_period
   end
 
-  def switch_updated
-    puts "Cambiando el estado del periodo #{@period.id}"
-    @period.is_updated = !@period.is_updated
-    @period.save
+  def deactivate_active_period
+    if is_a_period_active
+      @active_period.is_active = false
+      @active_period.save
+      render json: { 'period': @active_period , 'STATUS': 'PERIOD DEACTIVATED'}
+    else
+      render json: { status: 'ERROR', message: "The user hasn't an active period"}, status: :unprocessable_entity
+    end
+  end
+
+  def toggle_updated
+    if is_a_period_active
+      current_state = @active_period.is_updated
+      @active_period.is_updated = !current_state
+      @active_period.save
+      render json: { 'period': @active_period , 'STATUS': 'UPDATE TOGGLE'}
+    else
+      render json: { status: 'ERROR', message: "The user hasn't an active period"}, status: :unprocessable_entity
+    end
   end
 
   private
 
     def is_a_period_active
-      current_user.periods.where(is_active: true).count == 1
+      !@active_period.nil?
     end
 
     # Use callbacks to share common setup or constraints between actions.
+    def get_active_period
+      @active_period = current_user.periods.active.take
+    end
+
     def set_period
       @period = Period.find(params[:id])
     end

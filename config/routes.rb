@@ -11,6 +11,6 @@ Rails.application.routes.draw do
   get '/deactivate_active_period', to: 'periods#deactivate_active_period', as: 'deactivate_active_period'
   get '/check_active_period', to: 'periods#check_active_period', as: 'check_active_period'
   get '/toggle_updated', to: 'periods#toggle_updated', as: 'toggle_updated'
-
+  get '/get_report/:id', to: 'periods#get_report', as: 'get_report'
 
 end

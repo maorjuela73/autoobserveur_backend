@@ -72,17 +72,17 @@ class UsersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
 
-    def set_current_user
-      @user = current_user
-    end
+  def set_current_user
+    @user = current_user
+  end
 
-    def set_user
-      @user = User.find(params[:id])
-    end
+  def set_user
+    @user = User.find(params[:id])
+  end
 
-    # Only allow a trusted parameter "white list" through.
-    def user_params
-      params.require(:user).permit(:first_name, :last_name, :email, :birth_date, :password, :password_confirmation)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def user_params
+    params.require(:user).permit(:first_name, :last_name, :email, :birth_date, :password, :password_confirmation)
+  end
 
 end

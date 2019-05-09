@@ -49,4 +49,5 @@ class ItemsController < ApplicationController
   def item_params
     params.require(:item).permit(:code, :function, :dimension, :name, :description, :is_active)
   end
+
 end

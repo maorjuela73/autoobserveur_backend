@@ -139,21 +139,22 @@ class PeriodsController < ApplicationController
 
   private
 
-    def is_a_period_active
-      !@active_period.nil?
-    end
+  def is_a_period_active
+    !@active_period.nil?
+  end
 
-    # Use callbacks to share common setup or constraints between actions.
-    def get_active_period
-      @active_period = current_user.periods.active.take
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def get_active_period
+    @active_period = current_user.periods.active.take
+  end
 
-    def set_period
-      @period = Period.find(params[:id])
-    end
+  def set_period
+    @period = Period.find(params[:id])
+  end
 
-    # Only allow a trusted parameter "white list" through.
-    def period_params
-      params.require(:period).permit(:is_active, :is_update, :duration, :start_date, :end_date)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def period_params
+    params.require(:period).permit(:is_active, :is_update, :duration, :start_date, :end_date)
+  end
+
 end

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/period_item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/period_item.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -120,20 +117,20 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="2" />
-          <entry key="RailsDependency/Item" value="3" />
+          <entry key="RailsDependency/Item" value="4" />
           <entry key="RailsDependency/User" value="1" />
           <entry key="items" value="5" />
           <entry key="period_items" value="6" />
@@ -150,7 +147,7 @@
           <entry key="Database Element" value="42" />
           <entry key="Ruby" value="59" />
           <entry key="Scratch" value="4" />
-          <entry key="UML" value="4" />
+          <entry key="UML" value="5" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -176,111 +173,12 @@
     <favorites_list name="autoobserverur_backend" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://RailsDependency/Item">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>RailsDependency</ID>
-              <OriginalElement>Item</OriginalElement>
-              <nodes>
-                <node x="0.0" y="648.0">User</node>
-                <node x="165.9015625" y="247.0">PeriodItem</node>
-                <node x="78.27031249999999" y="392.0">Period</node>
-                <node x="133.7703125" y="79.0">Mark</node>
-                <node x="163.125" y="0.0">ApplicationRecord</node>
-                <node x="208.6515625" y="626.0">Item</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Item" target="PeriodItem">
-                  <point x="0.0" y="-103.0" />
-                  <point x="298.6515625" y="601.0" />
-                  <point x="300.9015625" y="601.0" />
-                  <point x="45.0" y="47.5" />
-                </edge>
-                <edge source="Period" target="ApplicationRecord">
-                  <point x="-45.0" y="-92.0" />
-                  <point x="123.27031249999999" y="59.0" />
-                  <point x="201.825" y="59.0" />
-                  <point x="-25.80000000000001" y="14.5" />
-                </edge>
-                <edge source="Item" target="ApplicationRecord">
-                  <point x="60.000000000000014" y="-103.0" />
-                  <point x="358.6515625" y="601.0" />
-                  <point x="356.4015625" y="601.0" />
-                  <point x="356.4015625" y="49.0" />
-                  <point x="279.225" y="49.0" />
-                  <point x="51.60000000000002" y="14.5" />
-                </edge>
-                <edge source="User" target="ApplicationRecord">
-                  <point x="-42.75" y="-81.0" />
-                  <point x="42.75" y="601.0" />
-                  <point x="61.52656250000001" y="601.0" />
-                  <point x="61.52656250000001" y="49.0" />
-                  <point x="176.025" y="49.0" />
-                  <point x="-51.599999999999994" y="14.5" />
-                </edge>
-                <edge source="Mark" target="PeriodItem">
-                  <point x="43.75" y="59.0" />
-                  <point x="265.0203125" y="222.0" />
-                  <point x="255.9015625" y="222.0" />
-                  <point x="0.0" y="-47.5" />
-                </edge>
-                <edge source="PeriodItem" target="Mark">
-                  <point x="-60.0" y="-47.5" />
-                  <point x="195.9015625" y="222.0" />
-                  <point x="177.5203125" y="222.0" />
-                  <point x="-43.75" y="59.0" />
-                </edge>
-                <edge source="PeriodItem" target="ApplicationRecord">
-                  <point x="60.0" y="-47.5" />
-                  <point x="315.9015625" y="222.0" />
-                  <point x="326.653125" y="222.0" />
-                  <point x="326.653125" y="59.0" />
-                  <point x="253.425" y="59.0" />
-                  <point x="25.80000000000001" y="14.5" />
-                </edge>
-                <edge source="Period" target="PeriodItem">
-                  <point x="45.0" y="-92.0" />
-                  <point x="213.2703125" y="367.0" />
-                  <point x="210.9015625" y="367.0" />
-                  <point x="-45.0" y="47.5" />
-                </edge>
-                <edge source="User" target="Period">
-                  <point x="42.75" y="-81.0" />
-                  <point x="128.25" y="601.0" />
-                  <point x="123.27031249999999" y="601.0" />
-                  <point x="-45.0" y="92.0" />
-                </edge>
-                <edge source="Mark" target="ApplicationRecord">
-                  <point x="0.0" y="-59.0" />
-                  <point x="221.2703125" y="59.0" />
-                  <point x="227.625" y="59.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="Item" target="Period">
-                  <point x="-60.0" y="-103.0" />
-                  <point x="238.6515625" y="601.0" />
-                  <point x="213.2703125" y="601.0" />
-                  <point x="45.0" y="92.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0821596244131453" x="-90.18942866139537" y="481.7787418655098" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Association fields</Category>
-                <Category>Migration fields</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -295,10 +193,100 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/items">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <entry file="uml://RailsDependency/Item">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
-              <filtering enabled="true" />
+              <ID>RailsDependency</ID>
+              <OriginalElement>Item</OriginalElement>
+              <nodes>
+                <node x="201.0" y="648.0">User</node>
+                <node x="51.875" y="247.0">PeriodItem</node>
+                <node x="118.65937500000001" y="392.0">Period</node>
+                <node x="21.29374999999999" y="79.0">Mark</node>
+                <node x="148.25" y="0.0">ApplicationRecord</node>
+                <node x="0.0" y="626.0">Item</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Item" target="PeriodItem">
+                  <point x="0.0" y="-103.0" />
+                  <point x="90.0" y="601.0" />
+                  <point x="96.875" y="601.0" />
+                  <point x="-45.0" y="47.5" />
+                </edge>
+                <edge source="Period" target="ApplicationRecord">
+                  <point x="45.0" y="-92.0" />
+                  <point x="253.659375" y="59.0" />
+                  <point x="238.55" y="59.0" />
+                  <point x="25.80000000000001" y="14.5" />
+                </edge>
+                <edge source="User" target="ApplicationRecord">
+                  <point x="42.75" y="-81.0" />
+                  <point x="329.25" y="601.0" />
+                  <point x="319.8046875" y="601.0" />
+                  <point x="319.8046875" y="59.0" />
+                  <point x="264.35" y="59.0" />
+                  <point x="51.60000000000002" y="14.5" />
+                </edge>
+                <edge source="Mark" target="PeriodItem">
+                  <point x="43.75" y="59.0" />
+                  <point x="152.54375" y="222.0" />
+                  <point x="141.875" y="222.0" />
+                  <point x="0.0" y="-47.5" />
+                </edge>
+                <edge source="Item" target="ApplicationRecord">
+                  <point x="-60.0" y="-103.0" />
+                  <point x="30.0" y="601.0" />
+                  <point x="10.793749999999989" y="601.0" />
+                  <point x="10.793749999999989" y="49.0" />
+                  <point x="161.15" y="49.0" />
+                  <point x="-51.599999999999994" y="14.5" />
+                </edge>
+                <edge source="PeriodItem" target="Mark">
+                  <point x="-60.0" y="-47.5" />
+                  <point x="81.875" y="222.0" />
+                  <point x="65.04374999999999" y="222.0" />
+                  <point x="-43.75" y="59.0" />
+                </edge>
+                <edge source="Period" target="PeriodItem">
+                  <point x="-45.0" y="-92.0" />
+                  <point x="163.659375" y="367.0" />
+                  <point x="186.875" y="367.0" />
+                  <point x="45.0" y="47.5" />
+                </edge>
+                <edge source="PeriodItem" target="ApplicationRecord">
+                  <point x="60.0" y="-47.5" />
+                  <point x="201.875" y="222.0" />
+                  <point x="216.8953125" y="222.0" />
+                  <point x="216.8953125" y="59.0" />
+                  <point x="212.75" y="59.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Mark" target="ApplicationRecord">
+                  <point x="0.0" y="-59.0" />
+                  <point x="108.79374999999999" y="59.0" />
+                  <point x="186.95" y="59.0" />
+                  <point x="-25.80000000000001" y="14.5" />
+                </edge>
+                <edge source="Item" target="Period">
+                  <point x="60.0" y="-103.0" />
+                  <point x="150.0" y="601.0" />
+                  <point x="163.659375" y="601.0" />
+                  <point x="-45.0" y="92.0" />
+                </edge>
+                <edge source="User" target="Period">
+                  <point x="-42.75" y="-81.0" />
+                  <point x="243.75" y="601.0" />
+                  <point x="253.659375" y="601.0" />
+                  <point x="45.0" y="92.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5821596244131455" x="186.0" y="416.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Association fields</Category>
+                <Category>Migration fields</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -361,17 +349,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="1624" />
-    <option name="height" value="1735" />
+    <option name="width" value="3229" />
+    <option name="height" value="1829" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,7 +402,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,7 +410,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/maorj/Documents/Miguel Orjuela/Autoobservacion/autoobserverur_backend/app/controllers/items_controller.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Apps/autoobserver_backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -551,11 +537,12 @@
       <workItem from="1558026348719" duration="249000" />
       <workItem from="1558048425454" duration="11000" />
       <workItem from="1559060484248" duration="1575000" />
+      <workItem from="1559156667117" duration="1473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78742000" />
+    <option name="totallyTimeSpent" value="80215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +556,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1842" height="1002" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.1575112" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.15919283" />
       <window_info x="992" y="209" width="258" height="512" id="Structure" order="1" sideWeight="0.50087565" side_tool="true" type="WINDOWED" weight="0.15434083" />
       <window_info id="Favorites" order="2" sideWeight="0.50277776" side_tool="true" weight="0.15434083" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -840,107 +827,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://RailsDependency/Item">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>Item</OriginalElement>
-          <nodes>
-            <node x="0.0" y="648.0">User</node>
-            <node x="165.9015625" y="247.0">PeriodItem</node>
-            <node x="78.27031249999999" y="392.0">Period</node>
-            <node x="133.7703125" y="79.0">Mark</node>
-            <node x="163.125" y="0.0">ApplicationRecord</node>
-            <node x="208.6515625" y="626.0">Item</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Item" target="PeriodItem">
-              <point x="0.0" y="-103.0" />
-              <point x="298.6515625" y="601.0" />
-              <point x="300.9015625" y="601.0" />
-              <point x="45.0" y="47.5" />
-            </edge>
-            <edge source="Period" target="ApplicationRecord">
-              <point x="-45.0" y="-92.0" />
-              <point x="123.27031249999999" y="59.0" />
-              <point x="201.825" y="59.0" />
-              <point x="-25.80000000000001" y="14.5" />
-            </edge>
-            <edge source="Item" target="ApplicationRecord">
-              <point x="60.000000000000014" y="-103.0" />
-              <point x="358.6515625" y="601.0" />
-              <point x="356.4015625" y="601.0" />
-              <point x="356.4015625" y="49.0" />
-              <point x="279.225" y="49.0" />
-              <point x="51.60000000000002" y="14.5" />
-            </edge>
-            <edge source="User" target="ApplicationRecord">
-              <point x="-42.75" y="-81.0" />
-              <point x="42.75" y="601.0" />
-              <point x="61.52656250000001" y="601.0" />
-              <point x="61.52656250000001" y="49.0" />
-              <point x="176.025" y="49.0" />
-              <point x="-51.599999999999994" y="14.5" />
-            </edge>
-            <edge source="Mark" target="PeriodItem">
-              <point x="43.75" y="59.0" />
-              <point x="265.0203125" y="222.0" />
-              <point x="255.9015625" y="222.0" />
-              <point x="0.0" y="-47.5" />
-            </edge>
-            <edge source="PeriodItem" target="Mark">
-              <point x="-60.0" y="-47.5" />
-              <point x="195.9015625" y="222.0" />
-              <point x="177.5203125" y="222.0" />
-              <point x="-43.75" y="59.0" />
-            </edge>
-            <edge source="PeriodItem" target="ApplicationRecord">
-              <point x="60.0" y="-47.5" />
-              <point x="315.9015625" y="222.0" />
-              <point x="326.653125" y="222.0" />
-              <point x="326.653125" y="59.0" />
-              <point x="253.425" y="59.0" />
-              <point x="25.80000000000001" y="14.5" />
-            </edge>
-            <edge source="Period" target="PeriodItem">
-              <point x="45.0" y="-92.0" />
-              <point x="213.2703125" y="367.0" />
-              <point x="210.9015625" y="367.0" />
-              <point x="-45.0" y="47.5" />
-            </edge>
-            <edge source="User" target="Period">
-              <point x="42.75" y="-81.0" />
-              <point x="128.25" y="601.0" />
-              <point x="123.27031249999999" y="601.0" />
-              <point x="-45.0" y="92.0" />
-            </edge>
-            <edge source="Mark" target="ApplicationRecord">
-              <point x="0.0" y="-59.0" />
-              <point x="221.2703125" y="59.0" />
-              <point x="227.625" y="59.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Item" target="Period">
-              <point x="-60.0" y="-103.0" />
-              <point x="238.6515625" y="601.0" />
-              <point x="213.2703125" y="601.0" />
-              <point x="45.0" y="92.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0821596244131453" x="-90.18942866139537" y="481.7787418655098" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Association fields</Category>
-            <Category>Migration fields</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/items">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -951,10 +848,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/items">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="uml://RailsDependency/Item">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <filtering enabled="true" />
+          <ID>RailsDependency</ID>
+          <OriginalElement>Item</OriginalElement>
+          <nodes>
+            <node x="201.0" y="648.0">User</node>
+            <node x="51.875" y="247.0">PeriodItem</node>
+            <node x="118.65937500000001" y="392.0">Period</node>
+            <node x="21.29374999999999" y="79.0">Mark</node>
+            <node x="148.25" y="0.0">ApplicationRecord</node>
+            <node x="0.0" y="626.0">Item</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Item" target="PeriodItem">
+              <point x="0.0" y="-103.0" />
+              <point x="90.0" y="601.0" />
+              <point x="96.875" y="601.0" />
+              <point x="-45.0" y="47.5" />
+            </edge>
+            <edge source="Period" target="ApplicationRecord">
+              <point x="45.0" y="-92.0" />
+              <point x="253.659375" y="59.0" />
+              <point x="238.55" y="59.0" />
+              <point x="25.80000000000001" y="14.5" />
+            </edge>
+            <edge source="User" target="ApplicationRecord">
+              <point x="42.75" y="-81.0" />
+              <point x="329.25" y="601.0" />
+              <point x="319.8046875" y="601.0" />
+              <point x="319.8046875" y="59.0" />
+              <point x="264.35" y="59.0" />
+              <point x="51.60000000000002" y="14.5" />
+            </edge>
+            <edge source="Mark" target="PeriodItem">
+              <point x="43.75" y="59.0" />
+              <point x="152.54375" y="222.0" />
+              <point x="141.875" y="222.0" />
+              <point x="0.0" y="-47.5" />
+            </edge>
+            <edge source="Item" target="ApplicationRecord">
+              <point x="-60.0" y="-103.0" />
+              <point x="30.0" y="601.0" />
+              <point x="10.793749999999989" y="601.0" />
+              <point x="10.793749999999989" y="49.0" />
+              <point x="161.15" y="49.0" />
+              <point x="-51.599999999999994" y="14.5" />
+            </edge>
+            <edge source="PeriodItem" target="Mark">
+              <point x="-60.0" y="-47.5" />
+              <point x="81.875" y="222.0" />
+              <point x="65.04374999999999" y="222.0" />
+              <point x="-43.75" y="59.0" />
+            </edge>
+            <edge source="Period" target="PeriodItem">
+              <point x="-45.0" y="-92.0" />
+              <point x="163.659375" y="367.0" />
+              <point x="186.875" y="367.0" />
+              <point x="45.0" y="47.5" />
+            </edge>
+            <edge source="PeriodItem" target="ApplicationRecord">
+              <point x="60.0" y="-47.5" />
+              <point x="201.875" y="222.0" />
+              <point x="216.8953125" y="222.0" />
+              <point x="216.8953125" y="59.0" />
+              <point x="212.75" y="59.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Mark" target="ApplicationRecord">
+              <point x="0.0" y="-59.0" />
+              <point x="108.79374999999999" y="59.0" />
+              <point x="186.95" y="59.0" />
+              <point x="-25.80000000000001" y="14.5" />
+            </edge>
+            <edge source="Item" target="Period">
+              <point x="60.0" y="-103.0" />
+              <point x="150.0" y="601.0" />
+              <point x="163.659375" y="601.0" />
+              <point x="-45.0" y="92.0" />
+            </edge>
+            <edge source="User" target="Period">
+              <point x="-42.75" y="-81.0" />
+              <point x="243.75" y="601.0" />
+              <point x="253.659375" y="601.0" />
+              <point x="45.0" y="92.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5821596244131455" x="186.0" y="416.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_15_091102) do
+ActiveRecord::Schema.define(version: 2019_05_09_221536) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,15 @@ ActiveRecord::Schema.define(version: 2019_04_15_091102) do
     t.boolean "is_active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "marks", force: :cascade do |t|
+    t.bigint "period_item_id"
+    t.integer "value"
+    t.text "comment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["period_item_id"], name: "index_marks_on_period_item_id"
   end
 
   create_table "period_items", force: :cascade do |t|
@@ -57,6 +66,7 @@ ActiveRecord::Schema.define(version: 2019_04_15_091102) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "marks", "period_items"
   add_foreign_key "period_items", "items"
   add_foreign_key "period_items", "periods"
 end

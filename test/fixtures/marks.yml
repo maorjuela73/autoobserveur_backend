@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  period_item: one
+  value: 1
+  comment: MyText
+
+two:
+  period_item: two
+  value: 1
+  comment: MyText

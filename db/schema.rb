@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_09_221536) do
+ActiveRecord::Schema.define(version: 2019_05_30_005616) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "advices", force: :cascade do |t|
+    t.bigint "item_id"
+    t.string "level"
+    t.string "advice"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["item_id"], name: "index_advices_on_item_id"
+  end
 
   create_table "items", force: :cascade do |t|
     t.string "code"
@@ -66,6 +75,7 @@ ActiveRecord::Schema.define(version: 2019_05_09_221536) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "advices", "items"
   add_foreign_key "marks", "period_items"
   add_foreign_key "period_items", "items"
   add_foreign_key "period_items", "periods"

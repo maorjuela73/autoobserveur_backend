@@ -1,0 +1,323 @@
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (1, 21, 'C0', 'De acuerdo con este resultado, al parecer no tienes ideas previas respecto a cómo evaluar tus niveles de motivación respecto a un curso o tarea académica. Frente a esto, te recomendamos lo siguiente: 
+      1. Sería valioso que tengas conciencia respecto a dos aspectos: uno es que la motivación es emoción en movimiento. Así, cuanto más motivado estés, mejor disposición tendrás para las tareas que debes abordar.  El segundo es que la motivación es interna (propia de tu mundo interior) y externa (la que viene de las situaciones en las que estás involucrado. Esto te podría permitir valorar cómo se manifiestan tus motivaciones y cuáles son sus fuentes. 
+       2. La respuesta emocional que los seres humanos tenemos ante las actividades y situaciones que vivimos es muy importante en el proceso de toma de decisiones. Puedes tomarte unos minutos cada cierto tiempo para que puedas escuchar tus respuestas emocionales y que puedas tener información de tu mundo interior para que puedas tomar mejores decisiones respecto a las actividades en las que estés involucrado. ', '2019-05-30 01:06:31.753102', '2019-05-30 01:06:31.753102');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (2, 22, 'C0', 'De acuerdo con este resultado, al parecer no tienes ideas previas respecto a cómo evaluar tus niveles de motivación respecto a un curso o tarea académica. Frente a esto, te recomendamos lo siguiente: 
+      1. Sería valioso que tengas conciencia respecto a dos aspectos: uno es que la motivación es emoción en movimiento. Así, cuanto más motivado estés, mejor disposición tendrás para las tareas que debes abordar.  El segundo es que la motivación es interna (propia de tu mundo interior) y externa (la que viene de las situaciones en las que estás involucrado. Esto te podría permitir valorar cómo se manifiestan tus motivaciones y cuáles son sus fuentes. 
+       2. La respuesta emocional que los seres humanos tenemos ante las actividades y situaciones que vivimos es muy importante en el proceso de toma de decisiones. Puedes tomarte unos minutos cada cierto tiempo para que puedas escuchar tus respuestas emocionales y que puedas tener información de tu mundo interior para que puedas tomar mejores decisiones respecto a las actividades en las que estés involucrado. 
+      3. Por otro lado, compartir la evolución de los niveles de motivación es de suma importancia en la autorregulación de tu aprendizaje. Este compartir podría ocurrir con tus profesores o tus compañeros. Te invitamos a que, una  vez evalúes tus niveles de motivación y revises su evolución, los compartas con los demás.', '2019-05-30 01:06:31.764072', '2019-05-30 01:06:31.764072');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (3, 5, 'C0', 'Este resultado indica que tal vez no  has escuchado o pensado que tener todos los recursos a mano para tus sesiones de trabajo individual puede ayudarte a concentrarte mejor y a hacer más en menos tiempo. 
+Te sugerimos:
+   1. Iniciar la práctica constante de establecer sesiones de trabajo individual concretas. Puede ser útil que establezcas sesiones entre 45 minutos y 1 hora, con descansos de 10 a 15 minutos. Asegúrate de contar con todos los recursos materiales necesarios al inicio de la sesión. 
+    2. Revisa cuáles son las condiciones adecuadas para ti para desarrollar estas sesiones de trabajo; nos referimos a si necesitas espacios silenciosos o si el ruido no te molesta; también nos referimos a que te asegures de que evites distracciones o conversaciones durante estas sesiones  individuales de trabajo. 
+    3. Evalúa todos los días y cada cierto tiempo (puede ser cada 10 días) cómo te sientes durante estas sesiones y qué podrías mejorar. ', '2019-05-30 01:06:31.769059', '2019-05-30 01:06:31.769059');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (4, 7, 'C0', 'Este resultado indica que tal vez no le has dado la importancia que amerita a los distractores. Te proponemos tres estrategias:
+1. Establece un periodo de trabajo que puede ir de 15 a 25 minutos y anota las distracciones que emergen, así como sus razones.
+2. Revisa las anotaciones que acabaste de escribir y verifica las condiciones de trabajo para identificar cómo puedes disminuir la frecuencia de ocurrencia.
+3. Comparte con tus compañeros  los aprendizajes que emergen de las estrategias anteriores; te darás cuenta de que no estás solo y que existen otras maneras de abordar las distracciones. ', '2019-05-30 01:06:31.774046', '2019-05-30 01:06:31.774046');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (5, 9, 'C0', 'Este resultado indica que tal vez no has aprendido a establecer planes de acción o que no ves el aporte de esta estrategia  a tus formas de trabajo. Te proponemos estas estrategias: 
+    1. Escoge una semana en la que quieras implementar esta estrategia. Antes del inicio de la semana (puedes ser sábado o domingo) revisa tus compromisos de esa semana y escoge 2 a los que harás seguimiento. Por ejemplo, si tienes un parcial el jueves siguiente y una clase que debes preparar el viernes siguiente, organiza bloques de trabajo de lunes a viernes para preparar estas dos entregas. Para asignar el tiempo de trabajo durante la semana, ten en cuenta estos criterios: 
+    a). Revisa qué tarea te puede implicar más esfuerzo, bien sea porque los contenidos son complejos de abordar o porque necesitas hacer más tareas pequeñas para culminar esta entrega. 
+    b). Una vez tengas esto, haz una lista de las pequeñas tareas que te va a significar cada entrega. Por ejemplo, para preparar el parcial, necesitarás: revisar apuntes de clase;, reunir lecturas y revisar notas de esas lecturas;  preguntar al profesor qué estará evaluado en el parcial y cómo se evaluará. 
+    c). Una vez tengas esta información sobre las dos entregas, asigna bloques de trabajos de máximo 2 horas a realizar las listas de tareas de cada entrega. Considera en esta asignación, todas las demás actividades que tengas (clases, reuniones, conferencias, etc.) Ten presente que estás empezando a adquirir un hábito que no tenías antes; así, ten paciencia y trátate con calma si no trabajas tan rápidamente como habías esperado. Al comienzo puede ser un poco lento; pero si persistes, vas a notar que cada vez trabajas mejor y desarrollas con más fluidez tus planes de acción. 
+    d). Después de cada bloque o sesión de trabajo, dedica unos 10 minutos a escribir qué sensaciones tienes después de terminar. De esta forma, podrás identificar en qué tareas trabajas más rápidamente, en cuáles trabajas más lentamente, cuáles son las razones de ese rendimiento, y qué opciones de mejora puedes establecer con base en esa información. También puedes evaluar cada semana cuál ha sido tu desempeño en la implementación de estos planes de acción. ', '2019-05-30 01:06:31.779034', '2019-05-30 01:06:31.779034');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (6, 16, 'C0', 'Es probable que por atender todas tus responsabilidades y querer responder a ellas, hayas descuidado el principal medio de comunicación e interacción con el mundo: tu cuerpo. No escuchar ni consultar al cuerpo podría traerte problemas de salud y, específicamente, en tu desempeño académico. Ante esto, te proponemos las siguientes sugerencias:
+1. Organiza de una mejor manera tu horario. Incluye no solo actividades académicas sino también personales, familiares, de ocio.
+2. Cuida la higiene del sueño, es decir, duerme por lo menos 7 horas al día.
+3. Realiza pausas activas cuando estés realizando actividades académicas.
+4. Aliméntate bien. Intenta que los alimentos que consumes sean balanceados. No olvides incluir en tu dieta  las verduras y las frutas. ¡Hidrátate muy bien!
+5. Revisa las condiciones y estado de tu cuerpo cuando vayas a tomar una nueva tarea. Analiza si requieres algo para poderla desarrollar.', '2019-05-30 01:06:31.791997', '2019-05-30 01:06:31.791997');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (7, 17, 'C0', 'Este resultado indica que tal vez no  has escuchado o pensado que tener todos los recursos a mano para tus sesiones de trabajo grupal puede ayudarte a concentrarte mejor y a hacer más en menos tiempo. 
+Te sugerimos:
+   1. Inicia la práctica constante de establecer sesiones de trabajo grupal concretas. Puede ser útil que establezcas sesiones de entre 45 minutos y 1 hora, con descansos de 10 a 15 minutos. Asegúrate de contar con todos los recursos materiales necesarios al inicio de la sesión. 
+    2. Revisa cuáles son las condiciones adecuadas para ti y las demás personas de tu grupo para desarrollar estas sesiones de trabajo; nos referimos a si necesitan espacios silenciosos o si el ruido no les molesta; también nos referimos a que te asegures de que evites distracciones o conversaciones durante estas sesiones grupales de trabajo. 
+    3. Evalúen todos los días y cada cierto tiempo (puede ser cada 10 días) cómo te sienten durante estas sesiones y qué podrían mejorar.', '2019-05-30 01:06:31.795986', '2019-05-30 01:06:31.795986');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (8, 1, 'C0', 'Este resultado indica que no conoces ninguna estrategia cognitiva o social para tus procesos de aprendizaje.
+
+En este link
+(https://www.psicopedagogia.com/estrategias-cognitivas; 
+http://elearningmasters.galileo.edu/2017/11/07/que-es-y-como-funciona-el-aprendizaje-social-2/)  , te ofrecemos varias estrategias cognitivas y sociales que podrías implementar. Escoge, por ejemplo, 2 estrategias sociales y 2 cognitivas; impleméntalas durante 10 días y posteriormente valora tu proceso. 
+
+      a. ¿Viste alguna mejora en tus resultados? 
+      b. ¿Te sentiste cómodo con las estrategias?
+      c. ¿Qué criterios tuviste en cuenta para valorar tus resultados y tu proceso?  ', '2019-05-30 01:06:31.799976', '2019-05-30 01:06:31.799976');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (9, 2, 'C0', 'Este resultado indica que no llevas a cabo procesos de reflexión y evaluación de tus estrategias de aprendizaje. Puede ser que no estés acostumbrado(a) o no tengas la información que requieres para hacerlo.  
+
+Te proponemos 2 estrategias para hacer estos procesos de reflexión y evaluación.  
+
+1. Escribe un párrafo breve sobre qué aprendizajes has tenido en las últimas 2 semanas. Sería importante que incluyas en tu texto algunos comentarios sobre cómo fue tu proceso para adquirir esos aprendizajes y, a partir de tus avances, qué otras habilidades o conocimientos quieres alcanzar. Involucra cómo te has sentido, qué evidencias tienes para sustentar esas percepciones sobre tu proceso de aprendizaje.  
+
+2. Conversa con un compañero de clase sobre qué aprendizajes ha adquirido durante las últimas semanas; luego, podrías compartir con él algunas ideas. También podrían conversar sobre cómo ven la clase a la que ambos asisten o cómo cada uno de ustedes abordó las tareas para esa clase.  ', '2019-05-30 01:06:31.807955', '2019-05-30 01:06:31.807955');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (10, 3, 'C0', 'Este resultado indica que no tienes claro cuando tu aprendizaje resulta ser fácil o difícil. La manera como lo ponderas los distintos aprenzajes es constante, sin embargo, debes darte la oportunidad a reconocer que hay un degradé que te permite, desde tu propia comprensión, calificar un aprendizaje desde difícil hasta fácil. Este reconocimiento necesario está íntimamente relacionado con un autoconocimiento. Te invitamos, entonces, a que leyendo tus capacidades, elementos contextuales, insumos, necesidad y oportunidades, reconozcas el gado de dificultad en los distintos contenidos y competencias que quieres aprender.', '2019-05-30 01:06:31.813939', '2019-05-30 01:06:31.813939');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (11, 21, 'C1', 'Según este resultado, al parecer evalúas tus motivaciones respecto a un curso, pero no generas alertas ni acciones vinculadas con tus motivaciones. Al respecto te sugerimos lo siguiente:
+       1. Dedica cierto tiempo (10 a 15 minutos por semana) para identificar tus emociones respecto a las actividades en las que estés involucrado, sin juzgarlas. Es decir, no se trata de que valores si tus motivaciones son positivas o negativas; te proponemos, en cambio, que puedas identificar con transparencia hacia ti misma(o) qué sientes respecto a las clases y otras actividades de tu vida universitaria. 
+       2. Una vez que has identificado tus motivaciones, relaciónalas con los objetivos que quieres alcanzar. Es decir, verifica si hay motivaciones que te hacen más amable la consecución de tus objetivos, o si hay motivaciones que te hacen más pesada o dificultosa la consecución de estos. 
+       3. Una vez que tienes identificados estos elementos, ¿qué necesitarías para mantener las motivaciones que te hacen la consecución de tus objetivos más amable? ¿Qué podrías o necesitarías hacer para que las motivaciones que te hacen más pesada la consecución de tus objetivos puedan ser más llevaderas o cómodas para ti? 
+       4. Una vez respondas estas dos preguntas, piensa en dos acciones concretas que puedas realizar a corto plazo y dos que puedas realizar a mediano plazo. ', '2019-05-30 01:06:31.818926', '2019-05-30 01:06:31.818926');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (12, 22, 'C1', 'De acuerdo con este resultado, parece ser que no has compartido con tus profesores la evolución de tus niveles de motivación. Esta interacción con los profesores es de vital importancia y te invitamos a que la tengas en cuenta. 
+Resultaría, entonces, conveniente que exploraras cuáles fueron las razones por las que no decidiste compartir esta evolución. Puede ser que no sientas confianza con tu profesor o profesora, o porque sencillamente no tienes el insumo para poder pensar en la evolución de la motivación. Sea cual sea la razón te invitamos a evaluar tus niveles de motivación, pensar en su evolución y compartirla con quienes te rodean y están, de alguna manera, involucrados en tus procesos de enseñanza y aprendizaje.', '2019-05-30 01:06:31.823915', '2019-05-30 01:06:31.823915');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (13, 5, 'C1', 'Este resultado parece indicar que tienes algunas ideas respecto a la planeación de tus sesiones de trabajo individual, pero no logras concretarlas. Al respecto, te sugerimos lo siguiente: 
+
+   1. Considera la importancia de que tengas sesiones de trabajo individual específicas y concretas. Con específicas nos referimos a que tengas un horario, semanal o mensual, en el que fijes esas sesiones de trabajo. Busca que esas sesiones no interfieran con otros compromisos. También es importante que, una vez fijes esas sesiones, te dediques exclusivamente al trabajo que has establecido para ellas. En este sentido, es muy importante que puedas manejar las distracciones y combines tiempos de descanso y tiempos de trabajo. 
+    2. También es importante ir adquiriendo el hábito de tener estas sesiones de trabajo individual; estas sesiones te ayudan a planear y ejecutar tareas que te permitirán cumplir con tus compromisos académicos. Además, te darán la tranquilidad de tener tiempos libres sin preocupaciones respecto a los compromisos que podrías haber olvidado. 
+   3. Es muy pertinente que puedas tener conciencia de que estas sesiones de trabajo individual son un elemento importante para concretar tus objetivos académicos o de cualquier otro tipo. En este sentido, es muy valioso que puedas trabajar sin supervisión debido a que tendrás que abordar tareas o proyectos individuales y te resultará muy útil saber cómo trabajar individualmente. ', '2019-05-30 01:06:31.829896', '2019-05-30 01:06:31.829896');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (14, 7, 'C1', 'Es posible que identifiques que, en efecto, te distraes, pero no estás tomando ninguna acción al respecto. Frente a esto, te proponemos:
+1. Revisa de nuevo los distractores emergentes y trata de agruparlos, en caso de encontrar similitudes. Estas nuevas agrupaciones podrán brindarte información adicional sobre la razón por la que los distractores aparecen.
+2. Teniendo en cuenta las asociaciones y descripciones del punto anterior, genera estrategias que te permitan encarar los distractores. Pregúntate, por ejemplo, ¿en qué contexto están apareciendo los distractores?, ¿cómo volver el distractor una oportunidad de mejora?
+', '2019-05-30 01:06:31.834883', '2019-05-30 01:06:31.834883');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (32, 22, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.931625', '2019-05-30 01:06:31.931625');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (33, 5, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.943593', '2019-05-30 01:06:31.943593');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (15, 9, 'C1', 'Este resultado parece indicar que comprendes que establecer planes de acción podría ser útil para abordar tus compromisos académicos, pero no has logrado crear un plan de acción que sea efectivo. Al respecto, te sugerimos:
+    1. Establece un objetivo que quieras concretar, por ejemplo, aprobar determinada asignatura. Después, escribe por lo menos 3 razones por las que ese objetivo es importante para ti. De esta forma, podrás identificar qué motivación tienes respecto al objetivo y tendrás conciencia de la forma en la que estás emocionalmente vinculado con aquello que deseas concretar. 
+    2. Una vez tengas este objetivo, piensa en por lo menos 3 acciones concretas que tendrías que realizar para conseguir ese objetivo. Por ejemplo, si tu objetivo es aprobar una asignatura, 3 acciones concretas serían: asistir puntualmente a las clases; preparar las lecturas previas a cada clase; y tomar apuntes concretos y útiles para el repaso posterior. 
+    3. Convierte estas acciones en una secuencia de bloques de trabajo que puedas seguir a lo largo de 5 días. Al final de este periodo, revisa cómo te sentiste con este plan de acción; también sería importante que recuerdes algún otro momento en el que hiciste un plan de acción y no lo seguiste. Compara esa experiencia anterior con esta e identifica qué mejoras tuviste en la ejecución en esta ocasión. De esta forma, podrás notar que puedes ir construyendo aprendizajes sobre tu propia experiencia. ', '2019-05-30 01:06:31.838871', '2019-05-30 01:06:31.838871');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (16, 16, 'C1', 'Parece ser que consideras que consultar al cuerpo no es importante. Ante esto, ten en cuenta que tu cuerpo es el medio que te permite interactuar con el mundo y, por tal razón, es muy importante que ese medio se esté desempeñando de la manera más óptima. 
+Centrándonos en tu proceso de aprendizaje, consultar al cuerpo es de vital importancia, pues tus niveles de concentración, creación y ejecución serán óptimos si el cuerpo está satisfecho, descansado y bien alimentado. Te recomendamos que reconsideres el cuidado del cuerpo.Recuerda el dicho popular: "mente sana en cuerpo sano".', '2019-05-30 01:06:31.842862', '2019-05-30 01:06:31.842862');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (17, 17, 'C1', 'Este resultado parece indicar tienes que algunas ideas respecto a la planeación de tus sesiones de trabajo grupal, pero no logras concretarlas. Al respecto, te sugerimos lo siguiente: 
+
+   1. Considera la importancia de que tengas sesiones de trabajo grupal específicas y concretas. Con específicas nos referimos a que tú y tu grupo tengan un horario semanal o mensual  en el que fijen esas sesiones de trabajo. Busca que esas sesiones no interfieran con otros compromisos que tengan. También es importante que, una vez fijen esas sesiones, te dediques exclusivamente al trabajo que han establecido. En este sentido, es muy importante que puedas manejar las distracciones y combines tiempos de descanso y tiempos de trabajo. 
+    2. También es importante que tengas en cuenta que es importante que vayas adquiriendo el hábito de tener estas sesiones de trabajo grupal; estas sesiones te ayudan a planear y ejecutar tareas que te permitirán cumplir con tus compromisos académicos. Además, te darán la tranquilidad de tener tiempos libres sin preocupaciones respecto a los compromisos que podrías haber olvidado. 
+   3. Es muy pertinente que puedas tener conciencia de que estas sesiones de trabajo grupal son un elemento importante para concretar tus objetivos académicos o de cualquier otro tipo. En este sentido, es muy valioso que puedas trabajar sin supervisión, debido a que tendrás que abordar tareas o proyectos grupales y te resultará muy útil saber cómo trabajar grupalmente. ', '2019-05-30 01:06:31.847849', '2019-05-30 01:06:31.847849');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (18, 1, 'C1', 'Este resultado parece indicar que conoces al menos una estrategia y que no logras implementarla. Valdría la pena que valores esta situación a la luz de las siguientes preguntas y comentarios: 
+a. Tal vez has implementado una estrategia que fue efectiva para otra persona, pero para ti no. Escoge una estrategia que quieras implementar (por ejemplo, tener sesiones de trabajo de 40 minutos y descansos de 10 minutos; hacer una planeación de tu semana; identificar tus momentos del día más productivos), y llévala a cabo durante 10 días. Evalúa al término de este periodo si esta estrategia fue efectiva o no; si estableces que sí fue efectiva, podrías considerar opciones para mejorarla. Si encuentras que no fue efectiva, identifica qué quieres mejorar y luego sí establece una estrategia que aborde apropiadamente este objetivo. 
+b. Considera el fin último de implementar esta estrategia que podría resultar útil; por ejemplo, si logras mejorar tus estrategias de manejo del tiempo, podrás estar tranquilo(a) respecto a tus compromisos académicos y tener al menos una hora más a la semana para cualquier otra actividad.
+
+
+', '2019-05-30 01:06:31.855828', '2019-05-30 01:06:31.855828');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (19, 2, 'C1', 'Este resultado parece indicar que conoces al menos  una forma de hacer reflexiones y evaluaciones sobre  tu aprendizaje y no logras implementarla. Valdría la pena considerar que es importante destinar algo de  tiempo (puede ser unos minutos diarios o semanales  o mensuales) para que contrastes tus objetivos con tus prácticas cotidianas; de esta forma, podrás  establecer qué cambios quieres o puedes hacer  para mejorar las áreas que hayas decidido mejorar. 
+También te sugerimos que te formules las siguientes preguntas:
+1. ¿De qué formas puedo establecer la efectividad de mis estrategias (por ejemplo, evalúo si pude cumplir o no todos mis compromisos, si pude cumplir con unas condiciones de calidad para las entregas de la universidad, si pude hacer franjas de preparación de talleres o exámenes fuera de la clase, etc.)?
+2. Considera una situación ocurrida la semana anterior en la que te hayas sentido muy satisfecho con los resultados que obtuviste en tu desempeño académico; valdría la pena que respondas estas preguntas:
+       a. ¿Qué consideras que fue efectivo?
+       b. ¿Crees que podrías continuar implementando esa estrategia efectiva? 
+       c. ¿Recibiste retroalimentación de otras personas que te ayudara a valorar la efectividad de tu trabajo?
+        d. ¿Qué sentiste cuando recibiste retroalimentación positiva?
+3. Considera una situación ocurrida la semana anterior en la que te hayas sentido profundamente insatisfecho con los resultados que obtuviste en tu desempeño académico; valdría la pena que respondas estas preguntas: 
+       a. ¿Qué factores generar ese resultado poco satisfactorio?
+       b. ¿Qué podrías hacer para que el resultado sea mejor en una siguiente oportunidad? 
+       c. ¿Recibiste retroalimentación de otras personas que te ayudara a valorar la efectividad de tu trabajo?
+        d. ¿Qué sentiste cuando recibiste retroalimentación? ¿Esos comentarios resultaron útiles para ti?', '2019-05-30 01:06:31.867798', '2019-05-30 01:06:31.867798');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (20, 3, 'C1', 'Aunque reconoces que puede haber distintos niveles de dificultad (o facilidad) en los procesos de enseñanza y aprendizaje, parece que no estás adaptando las acciones a esta escala. Esta adaptación es necesaria pues regula de una manera eficiente los esfuerzos que pones para aprender nuevos saberes y competencias. Te recomendamos que tomes acciones reales que se hagan corresponder con los distintos niveles de dificultad que reconociste, por ejemplo, si percibes que un aprendizaje es difícil, identifica los obstáculos, los nuevos aprendizajes que necesitas adquirir y las herramientas que facililitarían la mejor comprensión.', '2019-05-30 01:06:31.872781', '2019-05-30 01:06:31.872781');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (34, 7, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.947582', '2019-05-30 01:06:31.947582');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (35, 9, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.951571', '2019-05-30 01:06:31.951571');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (36, 16, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.957563', '2019-05-30 01:06:31.957563');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (21, 21, 'C2', 'De acuerdo con este resultado, al parecer sí evalúas tus
+ motivaciones, pero no logras tomar acciones concretas para mejorar tus niveles de motivaciones. Frente a esto, te sugerimos lo siguiente:
+    1. Considera una situación anterior en la que hayas experimentado bajos niveles de motivación respecto a una clase o una tarea académica y responde las siguientes preguntas:
+       a). ¿Pudiste identificar el origen de esos bajos niveles de motivación?
+       b). ¿Pudiste identificar cómo manifestaste esos bajos niveles de motivación?
+       c). ¿Qué factor o factores hicieron que no tomaras la decisión de emprender acciones para mejorar tus niveles de motivación? 
+      2. Si tienes bajos niveles de motivación en este momento respecto a una clase o una tarea, responde las preguntas que te proponemos en el punto 1 (el anterior). Luego, piensa en al menos dos acciones que podrías emprender a corto plazo (la próxima semana o las próximas dos semanas). Una vez hayas escogido estas acciones, reflexiona sobre qué recursos necesitas (humanos y físicos) para llevarlas a cabo. Después, lánzate con ánimo a realizar las dos acciones que has escogido y escribe un corto texto en el que reflexiones sobre cómo te sentiste después de emprender estas acciones. ', '2019-05-30 01:06:31.877768', '2019-05-30 01:06:31.877768');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (22, 22, 'C2', 'De acuerdo con este resultado, al parecer sí llevas a cabo un 
+proceso de evaluación de tus motivaciones, aunque has decidido conscientemente no comunicarla a algún(a) profesor(a) o alguna otra persona. En este sentido, te proponemos lo siguiente:
+     1. Sería valioso que puedas ser consciente de que comunicar tus motivaciones (sean éstas positivas o no) puede ofrecerte opciones de aprendizaje de las experiencias y posturas de otras personas. Por otra parte, el solo hecho de que verbalices para comunicar a otro cómo te sientes puede darte nuevas luces para abordar tus motivaciones. 
+      2. Escoge un(a) profesor(a) con el que te sientas en confianza y manifiéstale tus motivaciones positivas respecto al curso. Escucha sus comentarios. Luego, si es el caso, podrías manifestarle a este(a) mismo(a) profesor(a) que no tienes niveles de motivación alto respecto a un aspecto particular del curso; una vez le presentes la situación, podrías mencionarle que decidiste conversar con él (ella) para conocer su opinión y buscar juntos alguna opción que pueda mejorar tus niveles de motivación. 
+       3. Después de estas dos situaciones, escribe un breve texto en el que puedas comparar cómo te sentiste en cada una de ellas, qué consideras acertado en la forma en la que propusiste la conversación y qué aspectos podrías mejorar para una próxima oportunidad. ', '2019-05-30 01:06:31.882755', '2019-05-30 01:06:31.882755');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (23, 5, 'C2', 'Este resultado parece indicar que tienes algunas
+ ideas respecto a la programación de sesiones de trabajo individual y que tal vez has seguido alguna planeación que hayas hecho en tu experiencia previa. Sin embargo, parece que percibes que esta planeación no ha sido acertada o pertinente. Frente a esto, te recomendamos lo siguiente:
+   1. Considera una situación en concreto en la que hayas hecho una planeación de tus sesiones de trabajo individual, la hayas seguido y no hayas conseguido los resultados que querías. Sería valioso que respecto a esta situación te puedas responder las siguientes preguntas:
+        a). ¿Cuáles fueron los factores más relevantes que tuviste en cuenta para hacer esta planeación? 
+        b). ¿Qué porcentaje de la planeación de tus sesiones de trabajo individual pudiste cumplir? Si el porcentaje es bajo, ¿a qué crees que se debió? Si el porcentaje es alto, ¿aún consideras que la planeación no fue acertada?
+        c). En esa planeación, ¿consideraste resultados concretos para el final de la sesión? 
+   2. Otras preguntas que sería valioso formularte para valorar esta situación son:
+       a). En otras planeaciones, ¿has logrado dividir tareas grandes en tareas más pequeñas para abordarlas en tus sesiones de trabajo individual? La estrategia de dividir tareas grandes en tareas más pequeñas que puedas concretar en tus sesiones de trabajo individual puede ser efectiva para que avances en tus procesos y que te sientas en buen dominio de las tareas que estás desarrollando.
+       b). ¿Desarrollaste tus sesiones de trabajo individual bajo condiciones apropiadas? 
+       c). En planeaciones pasadas, ¿tuviste en cuenta otros objetivos o compromisos ya adquiridos? 
+       d). En otras sesiones de trabajo individual, ¿has logrado preparar las condiciones, para luego concentrarte en las tareas por desarrollar, y finalizar con una evaluación de tu desempeño durante la sesión? Si aún no lo haces, esta puede ser una buena forma de tener sesiones de trabajo individual eficientes: primero, te aseguras de que todas las condiciones están dadas; segundo, te concentras en las tareas; por último, escribes un pequeño párrafo para valorar cómo te sentiste durante la sesión, en qué fuiste eficiente y en qué podrías mejorar para otra sesión de trabajo individual. 
+     ', '2019-05-30 01:06:31.887741', '2019-05-30 01:06:31.887741');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (24, 7, 'C2', 'Este resultado parece indicar que has identificado 
+qué distracciones tienes y tal vez has identificado 
+algunas causas de ellas. Además, al parecer has intentado implementar estrategias efectivas para eliminar estas distracciones, pero estas estrategias no han sido efectivas. Te recomendamos lo siguiente: 
+   1. Antes de que inicies cualquier actividad académica, verifica que hayas descansado bien, que te hayas alimentado bien y que estés bien hidratado. Estas tres condiciones son básicas para que puedas concentrarte apropiadamente. Muy probablemente, si has resuelto estos asuntos antes de iniciar tu sesión de trabajo, podrás concentrarte con mayor facilidad.  
+2. Identifica en qué espacios o bajo qué condiciones logras tener tu atención concentrada de 15 a 25 minutos. 
+3. Establece un objetivo y una tarea específicos que abordarás durante cada sesión de trabajo. De esta forma, tu atención tendrá un propósito y tendrás más posibilidades de mantenerte enfocado en él. 
+4. Cuando termines tu sesión de trabajo concentrado, escribe un breve párrafo que te permita valorar qué condiciones te sirvieron (y cuáles no), cómo te sentiste durante la sesión y cuánto tiempo lograste mantenerte concentrado. ', '2019-05-30 01:06:31.891735', '2019-05-30 01:06:31.891735');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (25, 9, 'C2', 'Este resultado parece indicar que ya has tenido experiencia haciendo planes de acción, pero al parecer no te han resultado útiles o tal vez sientes que no es necesario hacerlos. Frente a esto te recomendamos: 
+1. Recuerda una experiencia en la que hayas formulado planes de acción y no hayan funcionado; busca responder las siguientes preguntas: 
+    a). ¿Ese plan de acción estableció plazos prudentes para el desarrollo de tareas?
+   b). ¿En ese plan de acción pudiste desintegrar un objetivo en pequeñas tareas? 
+   c). ¿En ese plan de acción incluiste tareas medibles, realistas y específicas? 
+  2. Una vez que tengas esta información, tendrás elementos para descubrir qué podrías mejorar la próxima vez que establezcas planes de acción. Sería valioso que diseñes un plan de acción, lo sigas por (al menos) una semana y luego evalúes qué resultados obtuviste y cómo te sentiste en el proceso. ', '2019-05-30 01:06:31.896718', '2019-05-30 01:06:31.896718');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (37, 17, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.962542', '2019-05-30 01:06:31.962542');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (38, 1, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.967528', '2019-05-30 01:06:31.967528');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (39, 2, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.971518', '2019-05-30 01:06:31.971518');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (40, 3, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.975508', '2019-05-30 01:06:31.975508');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (26, 16, 'C2', 'De acuerdo con este resultado, al parecer reconoces la importancia de consultar a tu cuerpo y revisar tu estado de bienestar físico para abordar las tareas y compromisos académicos; pero no logras tener prácticas de cuidado con tu propio cuerpo. Frente a esto, te sugerimos lo siguiente:
+      1. Sería valioso que puedas considerar que tu cuerpo es tu más valioso y preciado recurso físico: es tu cuerpo el que te permite emprender proyectos y ejecutar las acciones concretas que te permitirán lograr tus objetivos. Por esto es tan importante que empieces a valorar muy positivamente todo lo que tu cuerpo te permite hacer. 
+      2. Ahora que has podido tener más conciencia al respecto, pasemos a las acciones concretas. Así, te será más fácil cuidar apropiadamente de tu recurso más valioso. Algunas acciones concretas que te proponemos son las siguientes:
+      a). Revisa que estás durmiendo el número de horas suficiente para tu descanso físico y mental. Cuanto más descansado estés, te podrás concentrar más fácilmente. Si no estás durmiendo lo suficiente, intenta dormir de 5 a 6 horas y paulatinamente aumenta a 7 u 8 horas, dependiendo de tus necesidades de descanso. 
+     b). Cerciórate de que tu cuerpo recibe los insumos que requiere para mantenerse en funcionamiento óptimo. Para esto, revisa tus horarios de comidas y revisa también si son comidas saludables y balanceadas. También es importante que estés hidratado a lo largo del día. Trata de evitar alimentos con altos niveles de azúcar y el consumo excesivo de café o bebidas energizantes. Tan pronto ingieres estos alimentos te sientes con el ''subidón'' propio del azúcar y pareciera que tienes más energía; sin embargo, con el paso de los minutos, entras en fase de ''bajón'' que es cuando tu organismo está utilizando todos sus recursos para digerir toda esa carga de azúcar. 
+
+
+Considera que sí es importante, pero no logra hacer nada. ', '2019-05-30 01:06:31.900707', '2019-05-30 01:06:31.900707');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (27, 17, 'C2', 'Este resultado parece indicar que tienes algunas
+ ideas respecto a la programación de sesiones de trabajo grupal y que tal vez has seguido alguna planeación que hayas hecho en tu experiencia previa. Sin embargo, parece que percibes que esta planeación no ha sido acertada o pertinente. Frente a esto, te recomendamos:
+   1. Considera una situación en concreto en la que hayas hecho una planeación de tus sesiones de trabajo grupal, la hayas seguido y no hayas conseguido los resultados que querías. Sería valioso que respecto a esta situación te puedas responder las siguientes preguntas:
+        a). ¿Cuáles fueron los factores más relevantes que tuviste en cuenta para hacer esta planeación? 
+        b). ¿Qué porcentaje de la planeación de tus sesiones de trabajo grupal pudiste cumplir? Si el porcentaje es bajo, ¿a qué crees que se debió? Si el porcentaje es alto, ¿aún consideras que la planeación no fue acertada?
+        c). En esa planeación, ¿consideraste resultados concretos para el final de la sesión? 
+   2. Otras preguntas que sería valioso formularte para valorar esta situación son:
+       a). En otras planeaciones, ¿has logrado dividir tareas grandes en tareas más pequeñas para abordarlas en tus sesiones de trabajo grupal? La estrategia de dividir tareas grandes en tareas más pequeñas puede ser efectiva para que avances en tus procesos y que te sientas en buen dominio de las tareas que estás desarrollando
+       b). ¿Desarrollaste tus sesiones de trabajo grupal bajo condiciones apropiadas? 
+       c). En planeaciones pasadas, ¿tuviste en cuenta otros objetivos o compromisos ya adquiridos? 
+       d). En otras sesiones de trabajo grupal, ¿has logrado preparar las condiciones, para luego concentrarte en las tareas por desarrollar, y finalizar con una evaluación de tu desempeño durante la sesión? Si aún no lo haces, esta puede ser una buena forma de tener sesiones de trabajo grupal eficientes: primero, te aseguras de que todas las condiciones están dadas; segundo, te concentras en las tareas; por último, escribes un pequeño párrafo para valorar cómo te sentiste durante la sesión, en qué fuiste eficiente y en qué podrías mejorar para otra sesión de trabajo grupal. 
+     ', '2019-05-30 01:06:31.905694', '2019-05-30 01:06:31.905694');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (28, 1, 'C2', 'Este resultado parece indicar que conoces al menos una estrategia y la has implementado por muy poco tiempo, por lo que no conoces exactamente su efectividad. Este resultado también podría indicar que conoces al menos una estrategia, pero no logras considerar unos criterios de evaluación para determinar su nivel de efectividad. Considera los siguientes aspectos: 
+a. Establece una estrategia que quieras implementar y hazlo durante por lo menos 10 días, preferiblemente todos los días. Te sugerimos que sea una estrategia sencilla, que te permita sentir que tienes dominio y que te signifique una leve sensación de reto; por ejemplo, una estrategia puede ser "voy a levantarme media hora antes". De esta forma, no corres el riesgo de sentirte abrumado(a) y vas aprendiendo cuál es la mejor forma de implementarla, sin correr el riesgo de que te resulte aburridora o muy fácil. 
+b. Si ya estás implementando una estrategia, pero la abandonas pronto, tómate unos momentos para escribir por qué; considera por ejemplo si se te olvida, si te parece muy fácil o extremadamente difícil, si no ves su beneficio o si no tienes claro cuál es la relación entre tu objetivo y la estrategia. 
+', '2019-05-30 01:06:31.91068', '2019-05-30 01:06:31.91068');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (29, 2, 'C2', 'Este resultado parece indicar que conoces al menos una estrategia para 
+reflexionar y evaluar tus aprendizajes y que la has implementado por muy 
+poco tiempo. Este resultado también podría indicar que conoces al menos 
+una forma de reflexionar y evaluar tus aprendizajes, pero no logras considerar 
+unos criterios de evaluación para determinar su nivel de efectividad.  
+Considera los siguientes aspectos:
+     a. Dedica en la noche (si te es posible todas las noches) unos 10 a 15 minutos para que escribas un pequeño párrafo sobre lo que hiciste en el día, qué resultados obtuviste en tus actividades, qué ideas nuevas puedes implementar a tus formas de aprender, qué ideas ya no corresponden con tus formas de aprender, etc. 
+      b. Después, relee estos párrafos que reflejan tus reflexiones diarias. por ejemplo, pude notar tendencias, hechos o pensamientos recurrentes dependiendo de los resultados del día. Con base en esta evaluación, establece si este mecanismo de escritura es una buena forma para que puedas evaluar tus aprendizajes; podrías considerar también grabarte o hacer un blog o incluso posts en tus redes sociales, si te sientes cómodo(a) con ellos. ', '2019-05-30 01:06:31.916664', '2019-05-30 01:06:31.916664');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (30, 3, 'C2', 'De acuerdo con este resultado, al parecer conoces y tienes claros los criterios que podrían servirte para establecer qué aprendizajes te resultarán más fáciles o más difíciles, al iniciar una tarea o proyecto académico; sin embargo, no tomas decisiones concretas. Respecto a esto, te proponemos lo siguiente: 
+      1. Sería valioso que consideres que, para que vayas teniendo cada vez más y mas confianza en tus actividades, es importante que establezcas una conexión entre lo que crees y lo que haces, entre tus concepciones y tus acciones. Cuanta más coherencia logres entre lo que piensas y lo que haces, serán más efectivas tus estrategias y ganarás más confianza. Por esta razón, es tan importante que esa coherencia sea cada vez mayor. 
+      2. Ahora que ya tienes clara la importancia de la coherencia entre estos aspectos, te proponemos:
+        a). Revisa en tus cursos  e identifica un aprendizaje que consideras fácil y uno que consideres difícil. 
+        b). Con ambos aprendizajes, piensa en 3 implicaciones para cada uno; es decir, considera qué te implican los aprendizajes fáciles (por ejemplo, menos esfuerzo, más tiempo para dedicar a otras actividades, más disfrute, etc.) y qué te implican los aprendizajes difíciles (por ejemplo, pedir apoyo a un monitor, buscar otros materiales de consulta, buscar otras estrategias de estudio que te hagan amable el proceso, etc.) 
+       c). Con los aprendizajes difíciles, toma las implicaciones como acciones que realizarás la próxima semana. Luego, escribe un breve texto en el que reflexiones sobre cómo te sentiste, qué fue efectivo y qué podrías mejorar respecto a los aprendizajes difíciles.', '2019-05-30 01:06:31.920654', '2019-05-30 01:06:31.920654');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (31, 21, 'C3', '¡Plop! ¿Qué puede estar ocurriendo para que no 
+estés de acuerdo ni en desacuerdo con esta 
+afirmación? ¿Estás de acuerdo con algunos 
+aspectos que se presentan, pero no con todos? 
+¿Con cuáles estás de acuerdo y con cuáles no? 
+Te sugerimos responder estas preguntas. Luego, 
+haz nuevamente esta valoración.', '2019-05-30 01:06:31.92564', '2019-05-30 01:06:31.92564');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (41, 21, 'C4', '¡Qué bien! Has podido evaluar tus niveles de motivación vinculados a tu proceso de aprendizaje. Así, has reconocido contextos diferentes que afectan estos niveles de motivación. Este reconocimiento te ha permitido tomar acciones al respecto. Sin embargo, parece ser que las acciones por las que te has decidido no han sido adecuadas para elevar los niveles de motivación. Frente a esto te proponemos que antes de tomar una acción, analices (en un ejercicio de anticipación) si ellas tendrían o no efectos sobre tu motivación. Si concluyes que no o que el grado de influencia es muy bajo, te recomendamos que pienses en otro tipo de estrategia o acción.', '2019-05-30 01:06:31.98149', '2019-05-30 01:06:31.98149');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (42, 22, 'C4', 'Luego de evaluar tus niveles de motivación, has logrado identificar cuándo aumentan, se mantienen constantes o disminuyen. Esto es un aprendizaje muy valioso pues será un insumo necesario para que tomes acciones que mejoren tus procesos de aprendizaje. Sin embargo, parece ser que cuando compartes esta evolución con tus profesores (o compañeros), no les has dado la oportunidad de darte retroalimentación sobre ella. Incorporar estas otras voces es una decisión muy significativa pues incorporarás aprendizajes de otras buenas practicas en el ejercicio de entender cuándo se motiva o no. Te invitamos, entonces, a que recibas la opinión de los demás; esto traerá mucho más valor a esta aventura de aprender.', '2019-05-30 01:06:31.98548', '2019-05-30 01:06:31.98548');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (43, 5, 'C4', 'Al parecer, aún sientes que no logras 
+administrar apropiadamente todos los
+ recursos indispensables para tus sesiones 
+de trabajo individual concentrado. 
+Te proponemos las siguientes preguntas:
+      1. ¿Has establecido horarios viables de trabajo y de descanso?
+       2. ¿Has seguido estos horarios de manera constante?
+       3. ¿Estás acostumbrado a reunir todos los recursos necesarios para el desarrollo de tareas?
+     4. ¿Estás acostumbrado a hacer un cálculo aproximado del tiempo que te puede tomar cada tarea o actividad propia de la universidad? 
+Después de responder a estas preguntas, podrías nuevamente hacer la  valoración de este ítem para considerar otros cursos de acción. ', '2019-05-30 01:06:31.989472', '2019-05-30 01:06:31.989472');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (44, 7, 'C4', 'Al parecer, has identificado distractores que te desconcentran en el desarrollo de tus tareas. Es posible que, aunque identificando estos factores, tus respuestas no conlleven a acciones de mejora.  Te planteamos una preguntas que te ayudarán a comprender mejor este ítem: 
+1. Cuando detectas un distractor, ¿qué haces?
+2. Cuando te distraes, ¿permaneces en ese estado o encuentras maneras de concentrarte rápidamente?
+3. ¿Identificas tus distintas distracciones?
+- ¿Qué estrategias tienes para abordar cada una?
+- ¿Qué criterios aplicas para saber si tus estrategias son efectivas?', '2019-05-30 01:06:31.994456', '2019-05-30 01:06:31.994456');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (45, 9, 'C4', 'Al parecer, has identificado que no te encuentras tan satisfecho con la forma en la que diseñas y llevas a cabo planes de acción. Te proponemos las siguientes preguntas para que puedas identificar otros aspectos claves del proceso: 
+    1. ¿Con qué criterios determinas que un plan de acción no está funcionando? 
+     2. Cuando no puedes realizar una tarea o cuando no resulta pertinente, ¿cambias todo el plan o solo esa tarea? 
+    3. ¿Bajo qué criterios estableces el tiempo  destinado a cada tarea? 
+    4. En la evaluación de los planes de acción que has creado, ¿tienes en cuenta qué avances obtuviste? ¿logras identificar oportunidades de aprendizaje y de mejora? 
+    5. ¿Has conversado con otros respecto a cómo es su proceso en la creación y ejecución de sus planes de trabajo?  ', '2019-05-30 01:06:31.998445', '2019-05-30 01:06:31.998445');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (46, 16, 'C4', 'Has reconocido la importancia del cuerpo en los procesos de aprendizaje. ¡Este es un hallazgo fundamental! No lo pierdas de vista. Para reforzar acciones de escucha al cuerpo, te recomendamos:
+1. Haz un listado de las acciones que, en efecto, han tenido en cuenta las necesidades de tu cuerpo.
+2. Una vez tengas este listado, identifica cuáles de ellas requieren más atención y actúa al respecto.
+3.  Involucra las acciones en las que has notado mejora en el aprendizaje como elemento recurrente en tu toma de decisiones. 
+', '2019-05-30 01:06:32.00443', '2019-05-30 01:06:32.00443');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (47, 17, 'C4', 'Al parecer, aún sientes que no logras 
+administrar apropiadamente todos los
+ recursos indispensables para tus sesiones 
+de trabajo grupal concentrado. 
+Te proponemos las siguientes preguntas:
+      1. ¿Has establecido horarios viables de trabajo y de descanso?
+       2. ¿Has seguido estos horarios de manera constante?
+       3. ¿Estás acostumbrado a reunir todos los recursos necesarios para el desarrollo de tareas?
+     4. ¿Estás acostumbrado a hacer un cálculo aproximado del tiempo que te puede tomar cada tarea o actividad propia de la universidad? 
+Después de responder a estas preguntas, podrías nuevamente hacer la  valoración de este ítem para considerar otros cursos de acción. ', '2019-05-30 01:06:32.010414', '2019-05-30 01:06:32.010414');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (48, 1, 'C4', 'Al parecer, sientes que aún te hace falta alcanzar 
+un nivel más alto de efectividad en tus estrategias. 
+Te sugerimos que hagas un listado (tan cercano a la realidad como te sea posible) en el que incluyas las estrategias cognitivas y sociales que implementas. Una vez tengas este listado, plantéate qué haría falta para que puedas sentir que tienes un alto nivel de efectividad. Incluye en esta reflexión aspectos como frecuencia, si estas estrategias son un hábito o no, y una imagen de cómo te ves cuando obtengas un alto nivel de efectividad en tus estrategias. ', '2019-05-30 01:06:32.015401', '2019-05-30 01:06:32.015401');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (49, 2, 'C4', 'Al parecer, sientes que aún no llevas a cabo estos procesos de reflexión y evaluación de forma plenamente satisfactoria para ti.  
+
+Quizás estas preguntas puedan darte algunos parámetros: 
+
+ 1. ¿Cuáles son las estrategias que utilizas? ¿Qué tienes en cuenta para establecer si son efectivas para ti o no? ¿Has recibido algún comentario de tus profesores o compañeros de clase?  
+
+ 2. Revisa tus apuntes y notas para clases, ¿te resultan útiles para estudiar de forma efectiva? ¿Hay algo que quisieras cambiar respecto a este proceso? 
+
+ 3. ¿Cómo te sientes en tus contactos con otros compañeros de clase y profesores? ¿Te sientes en un ambiente seguro y de confianza para compartir tus ideas y reflexiones? Responde estas preguntas y en 10 días haz nuevamente la valoración de este ítem.  ', '2019-05-30 01:06:32.01939', '2019-05-30 01:06:32.01939');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (50, 3, 'C4', 'Tiene los criterios, toma decisiones sobre las estrategias, pero no está tan satisfecho con el resultado de aplicar esas estrategias
+¡Qué bien! Tienes muy claro los criterios que te permiten identificar cuándo un aprendizaje es fácil o difícil. Esta habilidad es de gran importancia pues te permitirá relacionarte mejor con la construcción de conocimiento. Además, parece que también tienes muy claro qué estrategias son necesarias para tomar acciones, por ejemplo, cuando identificas que un aprendizaje es difícil. Esto te permite dotar a tu aprendizaje de oportunidades de mejora. 
+Ahora bien, parece ser que no estás muy satisfecho con los resultados obtenidos cuando aplicas estas estrategias. Frente a esto te proponemos responder a las siguientes preguntas:
+1. ¿Has tomado acciones frente a la insatisfacción en el uso de estrategias?
+2. Una vez identificas cuando es necesario tomar una decisión, ¿tienes en cuenta lo que ha pasado en el pasado cuando tomas decisiones equivalentes?', '2019-05-30 01:06:32.026373', '2019-05-30 01:06:32.026373');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (51, 21, 'C5', '¡Felicitaciones! Tienes la habilidad  de valorar tus motivaciones en un alto nivel de dominio.  
+Te sugerimos que continúes con el hábito de 
+evaluar periódicamente tus motivaciones para
+ que puedas abordar tus compromisos académicos sintiéndote cómodo, seguro y tranquilo. ', '2019-05-30 01:06:32.031358', '2019-05-30 01:06:32.031358');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (52, 22, 'C5', '¡Felicitaciones! No solo te has permitido evaluar tus niveles de motivación, sino que has identificado la evolución de ellos. Identificar esta dinámica es vital en tu proceso de aprendizaje porque te garantiza tomar mejores decisiones cuando, por ejemplo, notes que tus niveles de motivación están disminuyendo y esto está afectando tu aprendizaje. Además, esto no ha parado acá, esta evolución la has compartido con tus profesores y tus compañeros y has permitido que de manera comunitaria se comprendiera el porqué de está dinámica de cambio en los niveles de motivación. Estas retroalimentaciones han incorporado aprendizajes importantes en tus comprensiones sobre tus motivaciones y te han entregado más luces para entender mejor la manera en que tu aprendizaje funciona.', '2019-05-30 01:06:32.036344', '2019-05-30 01:06:32.036344');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (53, 5, 'C5', '¡Felicitaciones! Has logrado
+ programar de forma eficiente tus sesiones de trabajo individual, con todos los recursos que requieres para ello. Te sugerimos que continúes con esta excelente programación. Sería valioso que cada 10 días o dos semanas evalúes tu desempeño para establecer en qué áreas podrías mejorar o qué habilidades nuevas quisieras incorporar en tu forma de programar tus sesiones de trabajo individual. ', '2019-05-30 01:06:32.040339', '2019-05-30 01:06:32.040339');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (54, 7, 'C5', '¡Felicitaciones! Has logrado reencausar tu atención y así enfocarte en tus tareas académicas. Detrás de cada distracción, existe una necesidad; te invitamos a que revises con detalle cuáles fueron esas necesidades que emergieron en tu proceso de aprendizaje. Es fácil: cuando te distraigas, anota en un papel las razones y tus acciones al respecto; esto te será de gran ayuda para entender la necesidad y tener más información para tomar mejores decisiones..', '2019-05-30 01:06:32.044323', '2019-05-30 01:06:32.044323');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (55, 9, 'C5', '¡Felicitaciones! Has logrado crear planes de acción
+ (a corto y mediano plazo) para cumplir la mayoría 
+de tus responsabilidades. Esta es una fortaleza 
+muy útil que ya has desarrollado, lo que puede significar para ti una ventaja muy importante en cualquier tarea que emprendas; te invitamos a que recuerdes cuál es el camino que has seguido hasta este momento para lograr este alto nivel de creación de planes de acción. Al tener conciencia de los aprendizajes que has desarrollado en tu camino, podrás identificar más rápida y fácilmente  qué fortalezas te harán más sencilla cualquier nueva tarea. ', '2019-05-30 01:06:32.050307', '2019-05-30 01:06:32.050307');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (56, 16, 'C5', '¡Felicitaciones! Has logrado escuchar tu cuerpo y respetarlo. Tienes claro que tu cuerpo es el medio de comunicación entre tú y el mundo, y que, para garantizar la mejor de las comunicaciones, este medio tiene que estar en las mejores condiciones. Tener una buena higiene del sueño, alimentarte bien, hacer pausas activas y hacer algún tipo de ejercicio te permite aprender mejor y disfrutar mientras lo haces. Sigue así :)', '2019-05-30 01:06:32.054296', '2019-05-30 01:06:32.054296');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (57, 17, 'C5', '¡Felicitaciones! Has logrado
+ programar de forma eficiente tus sesiones de trabajo grupal, con todos los recursos que requieres para ello. Te sugerimos que continúes con esta excelente programación. Sería valioso que cada 10 días o dos semanas evalúes tu desempeño para establecer en qué áreas podrías mejorar o qué habilidades nuevas quisieras incorporar en tu forma de programar tus sesiones de trabajo grupal. ', '2019-05-30 01:06:32.058285', '2019-05-30 01:06:32.058285');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (58, 1, 'C5', '¡Felicitaciones! Tienes una habilidad en la que 
+has logrado desarrollar alto dominio. 
+Te sugerimos que continúes con el hábito de 
+evaluar periódicamente tus estrategias para
+ identificar cuáles puedes seguir implementando 
+y cuáles estrategias nuevas puedes incorporar.', '2019-05-30 01:06:32.062277', '2019-05-30 01:06:32.062277');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (59, 2, 'C5', '¡Felicitaciones! Tienes un alto dominio de una habilidad central para cualquier aprendizaje. Te sugerimos que seas constante con el proceso de evaluación que haces, de tal forma que termine siendo un hábito para ti. ', '2019-05-30 01:06:32.067262', '2019-05-30 01:06:32.067262');
+INSERT INTO public.advices (id, item_id, level, advice, created_at, updated_at) VALUES (60, 3, 'C5', '¡Felicitaciones! Tienes una claridad relevante sobre cuándo un aprendizaje es fácil o difícil. Esta percepción, sin duda alguna, es subjetiva y, en este contexto, esto quiere decir que te conoces muy bien y ese autoconocimiento te permite enfrentar de la mejor manera las necesidades y obstáculos que emergen cuando se aprende.', '2019-05-30 01:06:32.072252', '2019-05-30 01:06:32.072252');
+
+

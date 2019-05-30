@@ -2,7 +2,7 @@
 require 'csv'
 
 
-CSV.foreach('C:\Users\maorj\Documents\Miguel Orjuela\Autoobservacion\Apps\autoobserver_backend\data\input\advises.csv', headers: true) do |row|
+CSV.foreach('C:\Users\maorj\Documents\Miguel Orjuela\Autoobservacion\Apps\autoobserver_backend\data\input\advices.csv', headers: true) do |row|
 	puts '---------------------'
 	numColumnas = row.length
 	for i in 0..numColumnas

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: one
+  level: MyString
+  advice: MyString
+
+two:
+  item: two
+  level: MyString
+  advice: MyString

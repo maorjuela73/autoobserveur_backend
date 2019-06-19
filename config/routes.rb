@@ -14,6 +14,4 @@ Rails.application.routes.draw do
   get '/get_report/:id', to: 'periods#get_report', as: 'get_report'
 
 
-
-
 end

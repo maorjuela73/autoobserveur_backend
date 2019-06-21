@@ -43,8 +43,8 @@ class UsersController < ApplicationController
                    'measured_days' => '8',
                    'start_date' => '2019-04-01',
                    'end_date' => '2019-04-20',
-                   'average_per_day' => [ { 'date': '2019-04-01', 'average': '3' },
-                                          { 'date': '2019-04-02', 'average': '3.45' },
+                   'average_per_day' => [ { 'date': '2019-04-01', 'average': '0' },
+                                          { 'date': '2019-04-02', 'average': '1' },
                                           { 'date': '2019-04-03', 'average': '4.68'},
                                           { 'date': '2019-04-04', 'average': '3.2' },
                                           { 'date': '2019-04-05', 'average': '4' },
@@ -63,8 +63,8 @@ class UsersController < ApplicationController
                                           { 'date': '2019-04-18', 'average': 'null' },
                                           { 'date': '2019-04-19', 'average': 'null' },
                                           { 'date': '2019-04-20', 'average': 'null' } ],
-                   'average_per_item' => [ {'Item 1': '3'} ,
-                                           {'Item 2': '3.45'} ,
+                   'average_per_item' => [ {'Item 1': '3.7'} ,
+                                           {'Item 2': '2.45'} ,
                                            {'Item 3': '4.68'} ]
     }
   end

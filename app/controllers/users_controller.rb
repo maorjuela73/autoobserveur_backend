@@ -63,9 +63,14 @@ class UsersController < ApplicationController
                                           { 'date': '2019-04-18', 'average': 'null' },
                                           { 'date': '2019-04-19', 'average': 'null' },
                                           { 'date': '2019-04-20', 'average': 'null' } ],
-                   'average_per_item' => [ {'Item 1': '3.7'} ,
-                                           {'Item 2': '2.45'} ,
-                                           {'Item 3': '4.68'} ]
+                   'average_per_item' => [ {'Soy un estudiante efectivo': '3.7'} ,
+                                           {'Reflexiono sobre mi aprendizaje': '4.45'} ,
+                                           {'Soy consciente de cuándo un aprendizaje es fácil o difícil': '3.45'} ,
+                                           {'Programo de manera eficiente las sesiones de trabajo individual': '4.5'} ,
+                                           {'Establezco resultados finales esperados': '2.45'} ,
+                                           {'Reacciono ante las distracciones': '3.2'} ,
+                                           {'Creo planes de acción': '5'} ,
+                                           {'Consulto a mi cuerpo para tomar decisiones': '2.9'} ]
     }
   end
 

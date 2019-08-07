@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/user_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/user_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -112,30 +111,11 @@
     </expand>
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
-                <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                  <state>
-                    <filtering enabled="true" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1538230460">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="5" />
@@ -161,7 +141,7 @@
           <entry key="advices" value="6" />
           <entry key="csv" value="1" />
           <entry key="dat" value="2" />
-          <entry key="items" value="10" />
+          <entry key="items" value="11" />
           <entry key="marks" value="3" />
           <entry key="period_items" value="8" />
           <entry key="periods" value="21" />
@@ -176,7 +156,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="84" />
+          <entry key="Database Element" value="85" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Ruby" value="103" />
           <entry key="Scratch" value="11" />
@@ -202,6 +182,27 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1163648529">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="items" value="1" />
+          <entry key="rb" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="1" />
+          <entry key="Ruby" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="autoobserverur_backend" />
@@ -211,13 +212,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
+            <state relative-caret-position="1120">
               <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/serializers/user_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
@@ -229,8 +230,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="165">
               <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/cors.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -278,7 +297,6 @@
         <option value="$PROJECT_DIR$/app/controllers/user_token_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190401065015_create_periods.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/cors.rb" />
         <option value="$PROJECT_DIR$/config/initializers/knock.rb" />
         <option value="$PROJECT_DIR$/app/models/period.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/85e467b8-2e5d-47ea-b52a-ed099d4df84c/console_1.sql" />
@@ -291,7 +309,6 @@
         <option value="$PROJECT_DIR$/app/controllers/advices_controller.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/85e467b8-2e5d-47ea-b52a-ed099d4df84c/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/33bb90d4-459d-46cf-b9ab-ceee90ec0823/console.sql" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -301,6 +318,8 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/serializers/user_serializer.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/cors.rb" />
       </list>
     </option>
   </component>
@@ -310,11 +329,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="500" />
-    <option name="y" value="4" />
-    <option name="width" value="1344" />
-    <option name="height" value="981" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="770" />
+    <option name="y" value="287" />
+    <option name="width" value="1764" />
+    <option name="height" value="1245" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -355,6 +374,12 @@
               <item name="autoobserverur_backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoobserverur_backend" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoobserverur_backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoobserverur_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="initializers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoobserverur_backend" type="b2602c69:ProjectViewProjectNode" />
@@ -403,7 +428,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ruby" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/dumped/advices.dat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -563,12 +588,14 @@
       <workItem from="1564095730111" duration="8651000" />
       <workItem from="1564335718093" duration="4767000" />
       <workItem from="1564448971879" duration="1269000" />
-      <workItem from="1564527560284" duration="3153000" />
+      <workItem from="1564527560284" duration="6945000" />
+      <workItem from="1564808661625" duration="2108000" />
+      <workItem from="1565196129044" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159486000" />
+    <option name="totallyTimeSpent" value="166477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,10 +607,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="500" y="4" width="1344" height="981" extended-state="0" />
+    <frame x="-7" y="-7" width="1842" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.20482866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.13004485" />
       <window_info x="992" y="209" width="258" height="512" id="Structure" order="1" sideWeight="0.50087565" side_tool="true" type="WINDOWED" weight="0.15434083" />
       <window_info id="Favorites" order="2" sideWeight="0.50277776" side_tool="true" weight="0.15434083" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -597,11 +624,11 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.51417005" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31205675" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23820484" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="2" weight="0.27570093" />
+      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.15639013" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24951768" />
     </layout>
     <layout-to-restore>
@@ -662,13 +689,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85e467b8-2e5d-47ea-b52a-ed099d4df84c/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/cors.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/knock.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -731,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/items">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/period_items">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -761,13 +774,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -958,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/items">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/33bb90d4-459d-46cf-b9ab-ceee90ec0823/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1021,13 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/period.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1056,16 +1048,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/items">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
+        <state relative-caret-position="1120">
           <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
@@ -1074,6 +1073,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/items">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/cors.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
         </state>
       </provider>
     </entry>

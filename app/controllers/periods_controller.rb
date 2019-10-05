@@ -78,7 +78,7 @@ class PeriodsController < ApplicationController
 
   # Return a boolean telling if a period is active
   def check_for_active_periods
-    render json: is_a_period_active
+    render json: { 'activePeriod?': is_a_period_active }
   end
 
   # Return the active period

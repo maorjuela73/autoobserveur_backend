@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/periods_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/periods_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,55 +29,6 @@
       <set />
     </option>
     <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur_backend_development@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="periods: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
@@ -210,14 +161,14 @@
           <entry key="advices" value="1" />
           <entry key="items" value="2" />
           <entry key="period_items" value="1" />
-          <entry key="periods" value="3" />
+          <entry key="periods" value="5" />
           <entry key="rb" value="7" />
-          <entry key="users" value="4" />
+          <entry key="users" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="11" />
+          <entry key="Database Element" value="15" />
           <entry key="Ruby" value="7" />
           <entry key="UML" value="1" />
         </counts>
@@ -225,12 +176,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="2" />
-          <entry key="rb" value="126" />
+          <entry key="rb" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="126" />
+          <entry key="Ruby" value="151" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -245,121 +196,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1120">
-              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://RailsDependency/Item">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>RailsDependency</ID>
-              <OriginalElement>Item</OriginalElement>
-              <nodes>
-                <node x="323.8815789473684" y="658.0">User</node>
-                <node x="239.71052631578945" y="402.0">Period</node>
-                <node x="178.50657894736838" y="257.0">PeriodItem</node>
-                <node x="149.99999999999997" y="89.0">Mark</node>
-                <node x="225.88157894736838" y="0.0">ApplicationRecord</node>
-                <node x="93.32894736842104" y="636.0">Item</node>
-                <node x="0.0" y="100.0">Advice</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="User" target="ApplicationRecord">
-                  <point x="42.75" y="-92.0" />
-                  <point x="452.1315789473684" y="611.0" />
-                  <point x="440.07894736842104" y="611.0" />
-                  <point x="440.07894736842104" y="49.0" />
-                  <point x="344.1315789473684" y="49.0" />
-                  <point x="53.74999999999999" y="14.5" />
-                </edge>
-                <edge source="Item" target="ApplicationRecord">
-                  <point x="-22.5" y="-114.0" />
-                  <point x="160.82894736842104" y="611.0" />
-                  <point x="139.49999999999997" y="611.0" />
-                  <point x="139.49999999999997" y="59.0" />
-                  <point x="258.1315789473684" y="59.0" />
-                  <point x="-32.25" y="14.5" />
-                </edge>
-                <edge source="Mark" target="PeriodItem">
-                  <point x="43.75" y="59.0" />
-                  <point x="281.25" y="232.0" />
-                  <point x="268.5065789473684" y="232.0" />
-                  <point x="0.0" y="-47.5" />
-                </edge>
-                <edge source="PeriodItem" target="Mark">
-                  <point x="-60.0" y="-47.5" />
-                  <point x="208.50657894736838" y="232.0" />
-                  <point x="193.74999999999997" y="232.0" />
-                  <point x="-43.75" y="59.0" />
-                </edge>
-                <edge source="Period" target="PeriodItem">
-                  <point x="-45.0" y="-92.0" />
-                  <point x="284.7105263157895" y="377.0" />
-                  <point x="313.5065789473684" y="377.0" />
-                  <point x="45.0" y="47.5" />
-                </edge>
-                <edge source="PeriodItem" target="ApplicationRecord">
-                  <point x="60.0" y="-47.5" />
-                  <point x="328.5065789473684" y="232.0" />
-                  <point x="346.8092105263157" y="232.0" />
-                  <point x="346.8092105263157" y="69.0" />
-                  <point x="301.1315789473684" y="69.0" />
-                  <point x="10.75" y="14.5" />
-                </edge>
-                <edge source="Mark" target="ApplicationRecord">
-                  <point x="0.0" y="-59.0" />
-                  <point x="237.49999999999997" y="69.0" />
-                  <point x="279.6315789473684" y="69.0" />
-                  <point x="-10.75" y="14.5" />
-                </edge>
-                <edge source="Item" target="Period">
-                  <point x="67.5" y="-114.0" />
-                  <point x="250.82894736842104" y="611.0" />
-                  <point x="284.7105263157895" y="611.0" />
-                  <point x="-45.0" y="92.0" />
-                </edge>
-                <edge source="Item" target="PeriodItem">
-                  <point x="22.5" y="-114.0" />
-                  <point x="205.82894736842104" y="611.0" />
-                  <point x="223.50657894736838" y="611.0" />
-                  <point x="-45.0" y="47.5" />
-                </edge>
-                <edge source="Advice" target="ApplicationRecord">
-                  <point x="0.0" y="-48.0" />
-                  <point x="64.5" y="49.0" />
-                  <point x="236.63157894736838" y="49.0" />
-                  <point x="-53.75" y="14.5" />
-                </edge>
-                <edge source="Period" target="ApplicationRecord">
-                  <point x="45.0" y="-92.0" />
-                  <point x="374.7105263157895" y="59.0" />
-                  <point x="322.6315789473684" y="59.0" />
-                  <point x="32.25" y="14.5" />
-                </edge>
-                <edge source="Item" target="Advice">
-                  <point x="-67.5" y="-114.0" />
-                  <point x="115.82894736842104" y="611.0" />
-                  <point x="64.49999999999997" y="611.0" />
-                  <point x="0.0" y="48.0" />
-                </edge>
-                <edge source="User" target="Period">
-                  <point x="-42.75" y="-92.0" />
-                  <point x="366.6315789473684" y="611.0" />
-                  <point x="374.7105263157895" y="611.0" />
-                  <point x="45.0" y="92.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7420814479638009" x="-83.02439024390242" y="313.4146341463414" />
-              <SelectedNodes>
-                <node>Advice</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Association fields</Category>
-                <Category>Migration fields</Category>
-              </Categories>
+              <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -367,8 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+            <state relative-caret-position="220">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -376,23 +213,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+            <state relative-caret-position="301">
+              <caret line="89" column="25" lean-forward="true" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/periods">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/periods">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -425,6 +253,7 @@
       <find>user_token</find>
       <find>verify</find>
       <find>verify_authenticity_token</find>
+      <find>check_for_active_periods</find>
     </findStrings>
     <replaceStrings>
       <replace>item</replace>
@@ -477,10 +306,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="176" />
-    <option name="y" value="64" />
-    <option name="width" value="2750" />
-    <option name="height" value="1497" />
+    <option name="x" value="495" />
+    <option name="y" value="33" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -693,12 +522,12 @@
       <workItem from="1569886846495" duration="749000" />
       <workItem from="1569901259793" duration="277000" />
       <workItem from="1569969491868" duration="1695000" />
-      <workItem from="1570034873586" duration="13883000" />
+      <workItem from="1570034873586" duration="16347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193745000" />
+    <option name="totallyTimeSpent" value="196209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,7 +556,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.51417005" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5385501" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.43498275" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1014,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/advices">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1039,13 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1171,14 +986,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
-          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1189,7 +997,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/periods">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://33bb90d4-459d-46cf-b9ab-ceee90ec0823/database/autoobserverur_backend_development/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1203,10 +1018,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/periods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        <state relative-caret-position="301">
+          <caret line="89" column="25" lean-forward="true" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
         </state>
       </provider>
     </entry>

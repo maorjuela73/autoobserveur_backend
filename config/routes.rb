@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/create_period/:nduration', to: 'periods#create_period', as: 'create_period'
 
   get '/get_periods', to: 'periods#get_periods', as: 'get_periods'
-  get '/get_inactive_periods', to: 'periods#get_inactive_periods', as: 'get_inactive_periods'
+  get '/get_inactive_periods', to: 'periods#get_inactive_periods', as: 'get_check_for_active_periodsinactive_periods'
 
   get '/check_for_active_periods', to: 'periods#check_for_active_periods', as: 'check_for_active_periods'
   get '/deactivate_active_period', to: 'periods#deactivate_active_period', as: 'deactivate_active_period'

@@ -72,7 +72,7 @@ class PeriodsController < ApplicationController
 
   # This method returns the inactive user periods ordered by date
   def get_inactive_periods
-    @periods = current_user.periods.which(is_active: false).order(created_at: :desc)
+    @periods = current_user.periods.where(is_active: false).order(created_at: :desc)
     render json: @periods
   end
 

@@ -70,6 +70,12 @@ class PeriodsController < ApplicationController
     render json: @periods
   end
 
+  # This method returns the inactive user periods ordered by date
+  def get_inactive_periods
+    @periods = current_user.periods.which(is_active: false).order(created_at: :desc)
+    render json: @periods
+  end
+
   # Return a boolean telling if a period is active
   def check_for_active_periods
     render json: is_a_period_active

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -68,16 +66,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="d8qnlfu56odsnv: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="users: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -168,27 +156,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="RailsDependency/Item" value="1" />
           <entry key="advices" value="1" />
           <entry key="items" value="2" />
-          <entry key="rb" value="5" />
+          <entry key="period_items" value="1" />
+          <entry key="periods" value="1" />
+          <entry key="rb" value="7" />
           <entry key="users" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
-          <entry key="Ruby" value="5" />
+          <entry key="Database Element" value="9" />
+          <entry key="Ruby" value="7" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="2" />
-          <entry key="rb" value="30" />
+          <entry key="rb" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="30" />
+          <entry key="Ruby" value="120" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -200,34 +192,148 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="1120">
+              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://RailsDependency/Item">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>RailsDependency</ID>
+              <OriginalElement>Item</OriginalElement>
+              <nodes>
+                <node x="323.8815789473684" y="658.0">User</node>
+                <node x="239.71052631578945" y="402.0">Period</node>
+                <node x="178.50657894736838" y="257.0">PeriodItem</node>
+                <node x="149.99999999999997" y="89.0">Mark</node>
+                <node x="225.88157894736838" y="0.0">ApplicationRecord</node>
+                <node x="93.32894736842104" y="636.0">Item</node>
+                <node x="0.0" y="100.0">Advice</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="User" target="ApplicationRecord">
+                  <point x="42.75" y="-92.0" />
+                  <point x="452.1315789473684" y="611.0" />
+                  <point x="440.07894736842104" y="611.0" />
+                  <point x="440.07894736842104" y="49.0" />
+                  <point x="344.1315789473684" y="49.0" />
+                  <point x="53.74999999999999" y="14.5" />
+                </edge>
+                <edge source="Item" target="ApplicationRecord">
+                  <point x="-22.5" y="-114.0" />
+                  <point x="160.82894736842104" y="611.0" />
+                  <point x="139.49999999999997" y="611.0" />
+                  <point x="139.49999999999997" y="59.0" />
+                  <point x="258.1315789473684" y="59.0" />
+                  <point x="-32.25" y="14.5" />
+                </edge>
+                <edge source="Mark" target="PeriodItem">
+                  <point x="43.75" y="59.0" />
+                  <point x="281.25" y="232.0" />
+                  <point x="268.5065789473684" y="232.0" />
+                  <point x="0.0" y="-47.5" />
+                </edge>
+                <edge source="PeriodItem" target="Mark">
+                  <point x="-60.0" y="-47.5" />
+                  <point x="208.50657894736838" y="232.0" />
+                  <point x="193.74999999999997" y="232.0" />
+                  <point x="-43.75" y="59.0" />
+                </edge>
+                <edge source="Period" target="PeriodItem">
+                  <point x="-45.0" y="-92.0" />
+                  <point x="284.7105263157895" y="377.0" />
+                  <point x="313.5065789473684" y="377.0" />
+                  <point x="45.0" y="47.5" />
+                </edge>
+                <edge source="PeriodItem" target="ApplicationRecord">
+                  <point x="60.0" y="-47.5" />
+                  <point x="328.5065789473684" y="232.0" />
+                  <point x="346.8092105263157" y="232.0" />
+                  <point x="346.8092105263157" y="69.0" />
+                  <point x="301.1315789473684" y="69.0" />
+                  <point x="10.75" y="14.5" />
+                </edge>
+                <edge source="Mark" target="ApplicationRecord">
+                  <point x="0.0" y="-59.0" />
+                  <point x="237.49999999999997" y="69.0" />
+                  <point x="279.6315789473684" y="69.0" />
+                  <point x="-10.75" y="14.5" />
+                </edge>
+                <edge source="Item" target="Period">
+                  <point x="67.5" y="-114.0" />
+                  <point x="250.82894736842104" y="611.0" />
+                  <point x="284.7105263157895" y="611.0" />
+                  <point x="-45.0" y="92.0" />
+                </edge>
+                <edge source="Item" target="PeriodItem">
+                  <point x="22.5" y="-114.0" />
+                  <point x="205.82894736842104" y="611.0" />
+                  <point x="223.50657894736838" y="611.0" />
+                  <point x="-45.0" y="47.5" />
+                </edge>
+                <edge source="Advice" target="ApplicationRecord">
+                  <point x="0.0" y="-48.0" />
+                  <point x="64.5" y="49.0" />
+                  <point x="236.63157894736838" y="49.0" />
+                  <point x="-53.75" y="14.5" />
+                </edge>
+                <edge source="Period" target="ApplicationRecord">
+                  <point x="45.0" y="-92.0" />
+                  <point x="374.7105263157895" y="59.0" />
+                  <point x="322.6315789473684" y="59.0" />
+                  <point x="32.25" y="14.5" />
+                </edge>
+                <edge source="Item" target="Advice">
+                  <point x="-67.5" y="-114.0" />
+                  <point x="115.82894736842104" y="611.0" />
+                  <point x="64.49999999999997" y="611.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="User" target="Period">
+                  <point x="-42.75" y="-92.0" />
+                  <point x="366.6315789473684" y="611.0" />
+                  <point x="374.7105263157895" y="611.0" />
+                  <point x="45.0" y="92.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7420814479638009" x="-83.02439024390242" y="313.4146341463414" />
+              <SelectedNodes>
+                <node>Advice</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Association fields</Category>
+                <Category>Migration fields</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="176">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/serializers/user_serializer.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="256">
+              <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
+        <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/period_items">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -236,10 +342,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/periods">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -291,7 +397,6 @@
         <option value="$PROJECT_DIR$/app/models/period.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/85e467b8-2e5d-47ea-b52a-ed099d4df84c/console_1.sql" />
         <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/periods_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/period_item.rb" />
         <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/dataloader.rake" />
@@ -305,12 +410,13 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/33bb90d4-459d-46cf-b9ab-ceee90ec0823/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/33bb90d4-459d-46cf-b9ab-ceee90ec0823/console_2.sql" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/initializers/cors.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20191003025036_add_gender_to_users.rb" />
         <option value="$PROJECT_DIR$/app/serializers/user_serializer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/periods_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -348,7 +454,7 @@
               <item name="autoobserverur_backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoobserverur_backend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="serializers" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -537,12 +643,12 @@
       <workItem from="1569886846495" duration="749000" />
       <workItem from="1569901259793" duration="277000" />
       <workItem from="1569969491868" duration="1695000" />
-      <workItem from="1570034873586" duration="5712000" />
+      <workItem from="1570034873586" duration="13291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185574000" />
+    <option name="totallyTimeSpent" value="193153000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +663,7 @@
     <frame x="-7" y="-7" width="1842" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49722221" weight="0.31278026" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.1720852" />
       <window_info x="992" y="209" width="258" height="512" id="Structure" order="1" sideWeight="0.50087565" side_tool="true" type="WINDOWED" weight="0.15434083" />
       <window_info id="Favorites" order="2" sideWeight="0.50277776" side_tool="true" weight="0.15434083" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -571,7 +677,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.51417005" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26812428" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.53509784" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -674,13 +780,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/scripts/dataloader.rb" />
-    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/period_items">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85e467b8-2e5d-47ea-b52a-ed099d4df84c/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4832">
@@ -719,119 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://RailsDependency/Item">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>Item</OriginalElement>
-          <nodes>
-            <node x="0.0" y="669.0">User</node>
-            <node x="164.2105263157895" y="257.0">PeriodItem</node>
-            <node x="78.31578947368422" y="402.0">Period</node>
-            <node x="133.81578947368422" y="89.0">Mark</node>
-            <node x="208.37500000000003" y="0.0">ApplicationRecord</node>
-            <node x="259.8618421052632" y="636.0">Item</node>
-            <node x="329.8157894736842" y="100.0">Advice</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="PeriodItem" target="Mark">
-              <point x="-60.0" y="-47.5" />
-              <point x="194.2105263157895" y="232.0" />
-              <point x="177.56578947368422" y="232.0" />
-              <point x="-43.75" y="59.0" />
-            </edge>
-            <edge source="User" target="ApplicationRecord">
-              <point x="-42.75" y="-81.0" />
-              <point x="42.75" y="611.0" />
-              <point x="59.83552631578948" y="611.0" />
-              <point x="59.83552631578948" y="49.0" />
-              <point x="219.12500000000003" y="49.0" />
-              <point x="-53.75" y="14.5" />
-            </edge>
-            <edge source="Item" target="ApplicationRecord">
-              <point x="67.49999999999999" y="-114.0" />
-              <point x="417.3618421052632" y="611.0" />
-              <point x="469.3157894736842" y="611.0" />
-              <point x="469.3157894736842" y="49.0" />
-              <point x="326.625" y="49.0" />
-              <point x="53.75" y="14.5" />
-            </edge>
-            <edge source="Mark" target="PeriodItem">
-              <point x="43.75000000000003" y="59.0" />
-              <point x="265.0657894736843" y="232.0" />
-              <point x="254.2105263157895" y="232.0" />
-              <point x="0.0" y="-47.5" />
-            </edge>
-            <edge source="Period" target="PeriodItem">
-              <point x="45.0" y="-92.0" />
-              <point x="213.31578947368422" y="377.0" />
-              <point x="209.2105263157895" y="377.0" />
-              <point x="-45.0" y="47.5" />
-            </edge>
-            <edge source="PeriodItem" target="ApplicationRecord">
-              <point x="60.0" y="-47.5" />
-              <point x="314.2105263157895" y="232.0" />
-              <point x="319.3157894736842" y="232.0" />
-              <point x="319.3157894736842" y="69.0" />
-              <point x="283.625" y="69.0" />
-              <point x="10.75" y="14.5" />
-            </edge>
-            <edge source="Item" target="Period">
-              <point x="-67.5" y="-114.0" />
-              <point x="282.3618421052632" y="611.0" />
-              <point x="213.31578947368422" y="611.0" />
-              <point x="45.0" y="92.0" />
-            </edge>
-            <edge source="Mark" target="ApplicationRecord">
-              <point x="2.8421709430404007E-14" y="-59.0" />
-              <point x="221.31578947368425" y="69.0" />
-              <point x="262.125" y="69.0" />
-              <point x="-10.75" y="14.5" />
-            </edge>
-            <edge source="Advice" target="ApplicationRecord">
-              <point x="0.0" y="-48.0" />
-              <point x="394.3157894736842" y="59.0" />
-              <point x="305.125" y="59.0" />
-              <point x="32.25" y="14.5" />
-            </edge>
-            <edge source="Item" target="PeriodItem">
-              <point x="-22.5" y="-114.0" />
-              <point x="327.3618421052632" y="611.0" />
-              <point x="299.2105263157895" y="611.0" />
-              <point x="45.0" y="47.5" />
-            </edge>
-            <edge source="Period" target="ApplicationRecord">
-              <point x="-45.0" y="-92.0" />
-              <point x="123.31578947368422" y="59.0" />
-              <point x="240.62500000000003" y="59.0" />
-              <point x="-32.25" y="14.5" />
-            </edge>
-            <edge source="Item" target="Advice">
-              <point x="22.5" y="-114.0" />
-              <point x="372.3618421052632" y="611.0" />
-              <point x="394.3157894736842" y="611.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="User" target="Period">
-              <point x="42.75" y="-81.0" />
-              <point x="128.25" y="611.0" />
-              <point x="123.31578947368422" y="611.0" />
-              <point x="-45.0" y="92.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5305429864253395" x="-393.0" y="442.0" />
-          <SelectedNodes>
-            <node>Item</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Association fields</Category>
-            <Category>Migration fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -929,20 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/periods">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/period.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1027,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1048,10 +1013,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://RailsDependency/Item">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>Item</OriginalElement>
+          <nodes>
+            <node x="323.8815789473684" y="658.0">User</node>
+            <node x="239.71052631578945" y="402.0">Period</node>
+            <node x="178.50657894736838" y="257.0">PeriodItem</node>
+            <node x="149.99999999999997" y="89.0">Mark</node>
+            <node x="225.88157894736838" y="0.0">ApplicationRecord</node>
+            <node x="93.32894736842104" y="636.0">Item</node>
+            <node x="0.0" y="100.0">Advice</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="User" target="ApplicationRecord">
+              <point x="42.75" y="-92.0" />
+              <point x="452.1315789473684" y="611.0" />
+              <point x="440.07894736842104" y="611.0" />
+              <point x="440.07894736842104" y="49.0" />
+              <point x="344.1315789473684" y="49.0" />
+              <point x="53.74999999999999" y="14.5" />
+            </edge>
+            <edge source="Item" target="ApplicationRecord">
+              <point x="-22.5" y="-114.0" />
+              <point x="160.82894736842104" y="611.0" />
+              <point x="139.49999999999997" y="611.0" />
+              <point x="139.49999999999997" y="59.0" />
+              <point x="258.1315789473684" y="59.0" />
+              <point x="-32.25" y="14.5" />
+            </edge>
+            <edge source="Mark" target="PeriodItem">
+              <point x="43.75" y="59.0" />
+              <point x="281.25" y="232.0" />
+              <point x="268.5065789473684" y="232.0" />
+              <point x="0.0" y="-47.5" />
+            </edge>
+            <edge source="PeriodItem" target="Mark">
+              <point x="-60.0" y="-47.5" />
+              <point x="208.50657894736838" y="232.0" />
+              <point x="193.74999999999997" y="232.0" />
+              <point x="-43.75" y="59.0" />
+            </edge>
+            <edge source="Period" target="PeriodItem">
+              <point x="-45.0" y="-92.0" />
+              <point x="284.7105263157895" y="377.0" />
+              <point x="313.5065789473684" y="377.0" />
+              <point x="45.0" y="47.5" />
+            </edge>
+            <edge source="PeriodItem" target="ApplicationRecord">
+              <point x="60.0" y="-47.5" />
+              <point x="328.5065789473684" y="232.0" />
+              <point x="346.8092105263157" y="232.0" />
+              <point x="346.8092105263157" y="69.0" />
+              <point x="301.1315789473684" y="69.0" />
+              <point x="10.75" y="14.5" />
+            </edge>
+            <edge source="Mark" target="ApplicationRecord">
+              <point x="0.0" y="-59.0" />
+              <point x="237.49999999999997" y="69.0" />
+              <point x="279.6315789473684" y="69.0" />
+              <point x="-10.75" y="14.5" />
+            </edge>
+            <edge source="Item" target="Period">
+              <point x="67.5" y="-114.0" />
+              <point x="250.82894736842104" y="611.0" />
+              <point x="284.7105263157895" y="611.0" />
+              <point x="-45.0" y="92.0" />
+            </edge>
+            <edge source="Item" target="PeriodItem">
+              <point x="22.5" y="-114.0" />
+              <point x="205.82894736842104" y="611.0" />
+              <point x="223.50657894736838" y="611.0" />
+              <point x="-45.0" y="47.5" />
+            </edge>
+            <edge source="Advice" target="ApplicationRecord">
+              <point x="0.0" y="-48.0" />
+              <point x="64.5" y="49.0" />
+              <point x="236.63157894736838" y="49.0" />
+              <point x="-53.75" y="14.5" />
+            </edge>
+            <edge source="Period" target="ApplicationRecord">
+              <point x="45.0" y="-92.0" />
+              <point x="374.7105263157895" y="59.0" />
+              <point x="322.6315789473684" y="59.0" />
+              <point x="32.25" y="14.5" />
+            </edge>
+            <edge source="Item" target="Advice">
+              <point x="-67.5" y="-114.0" />
+              <point x="115.82894736842104" y="611.0" />
+              <point x="64.49999999999997" y="611.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="User" target="Period">
+              <point x="-42.75" y="-92.0" />
+              <point x="366.6315789473684" y="611.0" />
+              <point x="374.7105263157895" y="611.0" />
+              <point x="45.0" y="92.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7420814479638009" x="-83.02439024390242" y="313.4146341463414" />
+          <SelectedNodes>
+            <node>Advice</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="1120">
+          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/period_items">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85e467b8-2e5d-47ea-b52a-ed099d4df84c/database/d8qnlfu56odsnv/schema/public/table/periods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

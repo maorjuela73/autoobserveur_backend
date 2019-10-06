@@ -3,7 +3,7 @@ class PeriodsController < ApplicationController
   # require 'json'
 
   before_action :set_period, only: [:show, :update, :destroy, :switch_updated, :get_report]
-  before_action :get_active_period, only: [:check_active_period]
+  before_action :get_active_period, only: [:check_active_period, :check_for_active_periods]
   before_action :authenticate_user
 
   # GET /periods
@@ -48,7 +48,7 @@ class PeriodsController < ApplicationController
   def create_period
     periods_checked = current_user.periods.active.count
     puts "The user has #{periods_checked} active periods, trying to create a #{params[:nduration].to_i} days period"
-    if !is_a_period_active
+    if periods_checked == 0
       puts "The user hasn't active periods"
       @period = current_user.periods.new(is_active: true, is_updated: false, duration: params[:nduration].to_i, start_date: Date.today.to_s, end_date: (Date.today+params[:nduration].to_i).to_s)
       puts @period
@@ -78,7 +78,8 @@ class PeriodsController < ApplicationController
 
   # Return a boolean telling if a period is active
   def check_for_active_periods
-    render json: { 'activePeriod?': is_a_period_active }
+    # puts "answer #{ @active_period.count() > 0 }"
+    render json: { 'activePeriod': @active_period.count() > 0 }
   end
 
   # Return the active period
@@ -146,12 +147,16 @@ class PeriodsController < ApplicationController
   private
 
   def is_a_period_active
+    puts "++++Active period ++++"
+    puts @active_period.to_s
     !@active_period.nil?
   end
 
   # Use callbacks to share common setup or constraints between actions.
   def get_active_period
-    @active_period = current_user.periods.active.take
+    # puts 'ejecutando get_active_period'
+    @active_period = current_user.periods.active
+    # puts 'get_active_period ejecutado'
   end
 
   def set_period
@@ -160,7 +165,7 @@ class PeriodsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def period_params
-    params.require(:period).permit(:is_active, :is_update, :duration, :start_date, :end_date)
+    params.require(:period).permit(:is_active, :is_updated, :duration, :start_date, :end_date)
   end
 
 end

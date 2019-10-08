@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   get '/toggle_updated', to: 'periods#toggle_updated', as: 'toggle_updated'
   get '/get_report/:id', to: 'periods#get_report', as: 'get_report'
 
+  get '/get_advices/:itemid', to: 'advices#get_advices', as: 'get_advices'
+
   get 'get_current_user' => 'users#get_current_user'
 
 end

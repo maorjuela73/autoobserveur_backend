@@ -8,6 +8,8 @@ class PeriodItemsController < ApplicationController
     @periodItem = current_user.periods.active.first.period_items.create(item: Item.find( params[:period_item][:item_id] ))
   end
 
+
+
   private
 
   # Only allow a trusted parameter "white list" through.

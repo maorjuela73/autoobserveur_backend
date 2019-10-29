@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :items
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get '/create_period/:nduration', to: 'periods#create_period', as: 'create_period'
+  get '/period_report/:periodid', to: 'periods#period_report', as: 'period_report'
 
   get '/get_periods', to: 'periods#get_periods', as: 'get_periods'
   get '/get_inactive_periods', to: 'periods#get_inactive_periods', as: 'get_check_for_active_periodsinactive_periods'

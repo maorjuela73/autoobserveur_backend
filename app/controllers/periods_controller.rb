@@ -1,6 +1,6 @@
 class PeriodsController < ApplicationController
 
-  # require 'json'
+  require 'json'
 
   before_action :set_period, only: [:show, :update, :destroy, :switch_updated, :get_report]
   before_action :get_active_period, only: [:check_active_period, :check_for_active_periods]
@@ -142,6 +142,26 @@ class PeriodsController < ApplicationController
                                            {'Item 2': '3.45'} ,
                                            {'Item 3': '4.68'} ]
     }
+  end
+
+  def period_report
+
+    puts "++++++++++++++ Period report +++++++++++"
+    entries = []
+
+    for i in current_user.periods.find(params[:periodid]).items do
+      n_item = i.as_json
+      n_marks = []
+      for j in PeriodItem.where(period_id: params[:periodid], item_id: i.id).first.marks do
+        n_marks.push(j.as_json)
+      end
+      n_item["marks"] = n_marks
+      entries.push(n_item)
+    end
+
+    render json: entries
+    puts "++++++++++++++ Period report END +++++++++++"
+
   end
 
   private

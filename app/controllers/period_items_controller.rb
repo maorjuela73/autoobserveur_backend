@@ -8,7 +8,10 @@ class PeriodItemsController < ApplicationController
     @periodItem = current_user.periods.active.first.period_items.create(item: Item.find( params[:period_item][:item_id] ))
   end
 
-
+  def get_perioditem_list
+    @periodItems = PeriodItem.where(period_id: current_user.periods.active.first.id)
+    render json: { 'period_items': @periodItems }
+  end
 
   private
 

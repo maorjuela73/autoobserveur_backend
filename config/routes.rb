@@ -22,6 +22,8 @@ Rails.application.routes.draw do
   get 'get_current_user' => 'users#get_current_user'
 
   post '/post_period_item', to: 'period_items#create_period_item', as: 'create_period_item'
+  get '/get_perioditem_list', to: 'period_items#get_perioditem_list', as: 'get_perioditem_list'
+
   post '/post_mark', to: 'marks#create_mark', as: 'create_mark'
 
 end

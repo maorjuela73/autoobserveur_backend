@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/periods_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/periods_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +344,7 @@
       <workItem from="1574126647929" duration="179000" />
       <workItem from="1576366937827" duration="286000" />
       <workItem from="1576368469094" duration="6448000" />
-      <workItem from="1576538297318" duration="7604000" />
+      <workItem from="1576538297318" duration="9580000" />
     </task>
     <servers />
   </component>
@@ -389,6 +378,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1576371754337" />
+    <state x="804" y="226" key="CommitChangelistDialog2" timestamp="1576589073188">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="804" y="226" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1576589073188" />
     <state x="901" y="518" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1576542496544">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

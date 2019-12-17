@@ -89,8 +89,9 @@ class PeriodsController < ApplicationController
 
   def get_completion_percentage
     period = @active_period.first
+    elapsed_days = (Date.current - period.start_date).to_i
     percentage =  (Date.current - period.start_date).to_f/period.duration
-    render json:  { 'completion_percentage': percentage}
+    render json:  { 'elapsed_days': elapsed_days, 'duration': period.duration, 'completion_percentage': percentage}
   end
 
   def deactivate_active_period

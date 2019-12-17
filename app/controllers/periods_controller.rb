@@ -3,7 +3,7 @@ class PeriodsController < ApplicationController
   require 'json'
 
   before_action :set_period, only: [:show, :update, :destroy, :switch_updated, :get_report]
-  before_action :get_active_period, only: [:check_active_period, :check_for_active_periods]
+  before_action :get_active_period, only: [:check_active_period, :check_for_active_periods, :get_completion_percentage]
   before_action :authenticate_user
 
   # GET /periods
@@ -85,6 +85,12 @@ class PeriodsController < ApplicationController
   # Return the active period
   def check_active_period
     render json: @active_period
+  end
+
+  def get_completion_percentage
+    period = @active_period.first
+    percentage =  (Date.current - period.start_date).to_f/period.duration
+    render json:  { 'completion_percentage': percentage}
   end
 
   def deactivate_active_period

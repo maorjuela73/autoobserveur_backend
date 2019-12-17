@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="autoobserverur@localhost">
-  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.11">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
     <root id="1">
       <ServerVersion>10.9</ServerVersion>
+      <StartupTime>1576345408</StartupTime>
     </root>
     <database id="2" parent="1" name="autoobserverur_backend_development">
       <ObjectId>16569</ObjectId>
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>116</IntrospectionStateNumber>
       <Current>1</Current>
-      <Visible>1</Visible>
     </database>
     <database id="3" parent="1" name="autoobserverur_backend_test">
       <ObjectId>16570</ObjectId>
@@ -22,38 +22,26 @@
     </database>
     <role id="5" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
-      <Inherit>1</Inherit>
-      <ConnectionLimit>-1</ConnectionLimit>
     </role>
     <role id="6" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
-      <Inherit>1</Inherit>
-      <ConnectionLimit>-1</ConnectionLimit>
     </role>
     <role id="7" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
-      <Inherit>1</Inherit>
-      <ConnectionLimit>-1</ConnectionLimit>
     </role>
     <role id="8" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
-      <Inherit>1</Inherit>
-      <ConnectionLimit>-1</ConnectionLimit>
     </role>
     <role id="9" parent="1" name="pg_stat_scan_tables">
       <ObjectId>3377</ObjectId>
-      <Inherit>1</Inherit>
-      <ConnectionLimit>-1</ConnectionLimit>
     </role>
     <role id="10" parent="1" name="postgres">
       <ObjectId>10</ObjectId>
       <SuperRole>1</SuperRole>
-      <Inherit>1</Inherit>
       <CreateRole>1</CreateRole>
       <CreateDb>1</CreateDb>
       <CanLogin>1</CanLogin>
       <Replication>1</Replication>
-      <ConnectionLimit>-1</ConnectionLimit>
       <BypassRls>1</BypassRls>
     </role>
     <schema id="11" parent="2" name="information_schema">
@@ -85,7 +73,6 @@
       <IntrospectionTimestamp>2019-07-25.18:43:36.798</IntrospectionTimestamp>
       <IntrospectionStateNumber>582</IntrospectionStateNumber>
       <Current>1</Current>
-      <Visible>1</Visible>
     </schema>
     <access-method id="17" parent="2" name="btree">
       <ObjectId>403</ObjectId>
@@ -131,55 +118,49 @@
     </access-method>
     <sequence id="23" parent="16" name="advices_id_seq">
       <ObjectId>16571</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>564</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="24" parent="16" name="items_id_seq">
       <ObjectId>16583</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>566</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="25" parent="16" name="marks_id_seq">
       <ObjectId>16594</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>567</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="26" parent="16" name="period_items_id_seq">
       <ObjectId>16606</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>569</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="27" parent="16" name="periods_id_seq">
       <ObjectId>16616</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>572</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="28" parent="16" name="users_id_seq">
       <ObjectId>16625</ObjectId>
-      <Owner>postgres</Owner>
       <StateNumber>574</StateNumber>
+      <Owner>postgres</Owner>
       <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
@@ -195,6 +176,7 @@
     </table>
     <table id="31" parent="16" name="items">
       <ObjectId>16585</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>577</StateNumber>
     </table>
@@ -210,6 +192,7 @@
     </table>
     <table id="34" parent="16" name="periods">
       <ObjectId>16618</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>578</StateNumber>
     </table>
@@ -220,6 +203,7 @@
     </table>
     <table id="36" parent="16" name="users">
       <ObjectId>16627</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>574</StateNumber>
     </table>
@@ -230,7 +214,6 @@
       <StateNumber>564</StateNumber>
       <DefaultExpression>nextval(&apos;advices_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
-      <SequenceName>advices_id_seq</SequenceName>
     </column>
     <column id="38" parent="29" name="item_id">
       <Position>2</Position>
@@ -276,8 +259,8 @@
     <key id="45" parent="29" name="advices_pkey">
       <ObjectId>16581</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>advices_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>advices_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="46" parent="29" name="fk_rails_1359dd7366">
       <ObjectId>16636</ObjectId>
@@ -323,8 +306,8 @@
     <key id="52" parent="30" name="ar_internal_metadata_pkey">
       <ObjectId>16671</ObjectId>
       <ColNames>key</ColNames>
-      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
     </key>
     <column id="53" parent="31" name="id">
       <Position>1</Position>
@@ -333,7 +316,6 @@
       <StateNumber>566</StateNumber>
       <DefaultExpression>nextval(&apos;items_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
-      <SequenceName>items_id_seq</SequenceName>
     </column>
     <column id="54" parent="31" name="code">
       <Position>2</Position>
@@ -393,8 +375,8 @@
     <key id="63" parent="31" name="items_pkey">
       <ObjectId>16593</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>items_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>items_pkey</UnderlyingIndexName>
     </key>
     <column id="64" parent="32" name="id">
       <Position>1</Position>
@@ -403,7 +385,6 @@
       <StateNumber>567</StateNumber>
       <DefaultExpression>nextval(&apos;marks_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
-      <SequenceName>marks_id_seq</SequenceName>
     </column>
     <column id="65" parent="32" name="period_item_id">
       <Position>2</Position>
@@ -449,8 +430,8 @@
     <key id="72" parent="32" name="marks_pkey">
       <ObjectId>16604</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>marks_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>marks_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="73" parent="32" name="fk_rails_78b20be245">
       <ObjectId>16641</ObjectId>
@@ -468,7 +449,6 @@
       <StateNumber>569</StateNumber>
       <DefaultExpression>nextval(&apos;period_items_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
-      <SequenceName>period_items_id_seq</SequenceName>
     </column>
     <column id="75" parent="33" name="period_id">
       <Position>2</Position>
@@ -512,8 +492,8 @@
     <key id="82" parent="33" name="period_items_pkey">
       <ObjectId>16613</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>period_items_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>period_items_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="83" parent="33" name="fk_rails_8332c1684b">
       <ObjectId>16651</ObjectId>
@@ -540,7 +520,6 @@
       <StateNumber>572</StateNumber>
       <DefaultExpression>nextval(&apos;periods_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
-      <SequenceName>periods_id_seq</SequenceName>
     </column>
     <column id="86" parent="34" name="user_id">
       <Position>2</Position>
@@ -604,8 +583,8 @@
     <key id="96" parent="34" name="periods_pkey">
       <ObjectId>16623</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>periods_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>periods_pkey</UnderlyingIndexName>
     </key>
     <column id="97" parent="35" name="version">
       <Position>1</Position>
@@ -622,8 +601,8 @@
     <key id="99" parent="35" name="schema_migrations_pkey">
       <ObjectId>16663</ObjectId>
       <ColNames>version</ColNames>
-      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
     </key>
     <column id="100" parent="36" name="id">
       <Position>1</Position>
@@ -632,7 +611,6 @@
       <StateNumber>574</StateNumber>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
-      <SequenceName>users_id_seq</SequenceName>
     </column>
     <column id="101" parent="36" name="first_name">
       <Position>2</Position>
@@ -686,8 +664,8 @@
     <key id="109" parent="36" name="users_pkey">
       <ObjectId>16635</ObjectId>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

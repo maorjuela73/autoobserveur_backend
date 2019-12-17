@@ -15,7 +15,9 @@
       <driver-properties>
         <property name="ssl" value="true" />
         <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
+        <property name="sslmode" value="verify-ca" />
       </driver-properties>
+      <time-zone>America/Bogota</time-zone>
     </data-source>
   </component>
 </project>

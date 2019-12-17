@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get '/check_for_active_periods', to: 'periods#check_for_active_periods', as: 'check_for_active_periods'
   get '/deactivate_active_period', to: 'periods#deactivate_active_period', as: 'deactivate_active_period'
   get '/check_active_period', to: 'periods#check_active_period', as: 'check_active_period'
+  get '/get_completion_percentage', to: 'periods#get_completion_percentage', as: 'get_completion_percentage'
   get '/toggle_updated', to: 'periods#toggle_updated', as: 'toggle_updated'
   get '/get_report/:id', to: 'periods#get_report', as: 'get_report'
 

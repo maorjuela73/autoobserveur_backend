@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823/storage_v2/_src_/database/autoobserverur_backend_development.M9-Gxw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823/storage_v2/_src_/database/autoobserverur_backend_development.M9-Gxw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/periods_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/periods_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,45 +62,6 @@
         <item name="autoobserverur@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="autoobserverur_backend_development: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
@@ -256,7 +222,16 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:autoobserverur@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@19ba1884" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@210ed99a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6180e53c" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -344,7 +319,9 @@
       <workItem from="1574126647929" duration="179000" />
       <workItem from="1576366937827" duration="286000" />
       <workItem from="1576368469094" duration="6448000" />
-      <workItem from="1576538297318" duration="9580000" />
+      <workItem from="1576538297318" duration="10495000" />
+      <workItem from="1577151709407" duration="439000" />
+      <workItem from="1578506060787" duration="5305000" />
     </task>
     <servers />
   </component>
@@ -374,10 +351,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576371754337">
+    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578506126742">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1576371754337" />
+    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578506126742" />
     <state x="804" y="226" key="CommitChangelistDialog2" timestamp="1576589073188">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -390,22 +367,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1001" y="468" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1576542477362" />
-    <state width="1182" height="247" key="GridCell.Tab.0.bottom" timestamp="1576543159392">
+    <state width="1741" height="381" key="GridCell.Tab.0.bottom" timestamp="1578506127847">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1182" height="247" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1576543159392" />
-    <state width="1182" height="247" key="GridCell.Tab.0.center" timestamp="1576543159392">
+    <state width="1741" height="381" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578506127847" />
+    <state width="1741" height="381" key="GridCell.Tab.0.center" timestamp="1578506127847">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1182" height="247" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1576543159392" />
-    <state width="1182" height="247" key="GridCell.Tab.0.left" timestamp="1576543159392">
+    <state width="1741" height="381" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578506127847" />
+    <state width="1741" height="381" key="GridCell.Tab.0.left" timestamp="1578506127846">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1182" height="247" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1576543159392" />
-    <state width="1182" height="247" key="GridCell.Tab.0.right" timestamp="1576543159392">
+    <state width="1741" height="381" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578506127846" />
+    <state width="1741" height="381" key="GridCell.Tab.0.right" timestamp="1578506127847">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1182" height="247" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1576543159392" />
+    <state width="1741" height="381" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578506127847" />
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1578519348201">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.2560.1400@0.0.2560.1400" timestamp="1578519348201" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1576529339563">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

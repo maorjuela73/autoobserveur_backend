@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155cc9d3-a178-4429-9e87-d887ff67ded9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823/storage_v2/_src_/database/autoobserverur_backend_development.M9-Gxw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33bb90d4-459d-46cf-b9ab-ceee90ec0823/storage_v2/_src_/database/autoobserverur_backend_development.M9-Gxw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85e467b8-2e5d-47ea-b52a-ed099d4df84c/storage_v2/_src_/database/d8qnlfu56odsnv.G8s_uQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/input/advices_html.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/dataloader.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dataloader.rake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +47,39 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="autoobserverur@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="autoobserverur_backend_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="d8qnlfu56odsnv: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
@@ -100,6 +118,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Miguel Orjuela\PROYECTOS\Autoobservacion\autoobserverur_backend\data\input" />
+    </key>
   </component>
   <component name="RunManager" selected="Ruby.scratch">
     <configuration name="Development: autoobserverur_backend" type="RailsRunConfigurationType" factoryName="Rails">
@@ -231,6 +254,16 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6ed78ba6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@762a90c8" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:d8qnlfu56odsnv@ec2-23-21-106-241.compute-1.amazonaws.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@6180e53c" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
@@ -321,7 +354,7 @@
       <workItem from="1576368469094" duration="6448000" />
       <workItem from="1576538297318" duration="10495000" />
       <workItem from="1577151709407" duration="439000" />
-      <workItem from="1578506060787" duration="5305000" />
+      <workItem from="1578506060787" duration="14065000" />
     </task>
     <servers />
   </component>

@@ -201,6 +201,7 @@ sequence|table|49316|49318|1
     </sequence>
     <table id="34" parent="20" name="advices">
       <ObjectId>49318</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>964</StateNumber>
     </table>
@@ -211,6 +212,7 @@ sequence|table|49316|49318|1
     </table>
     <table id="36" parent="20" name="items">
       <ObjectId>49270</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>962</StateNumber>
     </table>

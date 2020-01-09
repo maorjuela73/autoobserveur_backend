@@ -9,7 +9,7 @@ namespace :dataloader do
   end
 
   task importAdvices: :environment do
-    CSV.foreach('data/input/advices.csv', headers: true) do |row|
+    CSV.foreach('data/input/advices_html.csv', headers: true) do |row|
       item = Item.find_by(code: row[1])
       item.advices.create(level: row[3], advice: row[4])
     end

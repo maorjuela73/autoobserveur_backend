@@ -171,6 +171,34 @@ class PeriodsController < ApplicationController
 
   end
 
+  def period_report_filtered
+
+    puts "++++++++++++++ Period report +++++++++++"
+    entries = []
+
+    for i in current_user.periods.find(params[:periodid]).items do
+      n_item = i.as_json
+      n_marks = []
+      is_updated = false
+      for j in PeriodItem.where(period_id: params[:periodid], item_id: i.id).first.marks do
+        puts j.as_json.to_s
+        mark_date = j.created_at.to_date.to_s
+        cur_date = (Time.zone.now.to_date.to_s)
+        is_updated = (mark_date == cur_date)
+        n_marks.push(j.as_json)
+      end
+      n_item["marks"] = n_marks
+
+      unless is_updated
+        entries.push(n_item)
+      end
+    end
+
+    render json: entries
+    puts "++++++++++++++ Period report END +++++++++++"
+
+  end
+
   private
 
   def is_a_period_active
